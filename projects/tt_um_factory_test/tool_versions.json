@@ -2,6 +2,6 @@
   "yosys": "",
   "openroad": "v2.0-16649-g40811f37f",
   "klayout": "KLayout 0.29.7",
-  "orfs": "62723bf5ed7c391d95918729c6313e04e7e0a1e0",
-  "ihp_pdk": "416f7148859b1ea7d2906e6ed3221378a3d72042"
+  "orfs": "980de246ed15fde469d98bd2d88084b9559ea7f2",
+  "ihp_pdk": "ff292fcd5d1f1d54c68078ce23853058ce3c95cc"
 }
