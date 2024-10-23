@@ -1,0 +1,58 @@
+
+17. Printing statistics.
+
+=== tt_um_vc32_cpu ===
+
+   Number of wires:              17505
+   Number of wire bits:          17540
+   Number of public wires:        2504
+   Number of public wire bits:    2539
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              15040
+     sg13g2_a21o_1                 117
+     sg13g2_a21oi_1                852
+     sg13g2_a21oi_2                  4
+     sg13g2_a221oi_1               227
+     sg13g2_a22oi_1                750
+     sg13g2_and2_1                 198
+     sg13g2_and3_1                  51
+     sg13g2_and3_2                   1
+     sg13g2_and4_1                  42
+     sg13g2_buf_1                 1701
+     sg13g2_buf_16                   3
+     sg13g2_buf_2                  271
+     sg13g2_buf_4                   83
+     sg13g2_buf_8                   49
+     sg13g2_dfrbp_1               2481
+     sg13g2_inv_1                  304
+     sg13g2_inv_2                    5
+     sg13g2_mux2_1                1722
+     sg13g2_mux4_1                 306
+     sg13g2_nand2_1               1500
+     sg13g2_nand2b_1               249
+     sg13g2_nand2b_2                 1
+     sg13g2_nand3_1                355
+     sg13g2_nand3b_1                60
+     sg13g2_nand4_1                161
+     sg13g2_nor2_1                 950
+     sg13g2_nor2_2                   5
+     sg13g2_nor2b_1                363
+     sg13g2_nor3_1                 243
+     sg13g2_nor3_2                   7
+     sg13g2_nor4_1                  87
+     sg13g2_nor4_2                   7
+     sg13g2_o21ai_1               1504
+     sg13g2_or2_1                  105
+     sg13g2_or3_1                   41
+     sg13g2_or4_1                   19
+     sg13g2_tiehi                    1
+     sg13g2_xnor2_1                157
+     sg13g2_xor2_1                  58
+
+   Chip area for module '\tt_um_vc32_cpu': 253782.622800
+     of which used for sequential elements: 117039.686400 (46.12%)
+
