@@ -1,0 +1,57 @@
+# Tiny Tapeout project information
+project:
+  title:        "ROTFPGA v2b"  # Project title
+  author:       "htfab"        # Your name
+  discord:      "h.tamas"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "A reconfigurable logic circuit made of identical rotatable tiles"  # One line description of what your project does
+  language:     "Verilog"      # other examples include SystemVerilog, Amaranth, VHDL, etc
+  clock_hz:     10000000       # Clock frequency in Hz (or 0 if not applicable)
+
+  # How many tiles your design occupies? A single tile is about 167x108 uM.
+  tiles: "1x2"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
+
+  # Your top module name must start with "tt_um_". Make it unique by including your github username:
+  top_module:  "tt_um_htfab_rotfpga2_ff"
+
+  # List your project's source files here.
+  # Source files must be in ./src and you must list each source file separately, one per line.
+  # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
+  source_files:
+    - "tile.v"
+    - "grid.v"
+    - "tt_um_htfab_rotfpga2_ff.v"
+
+# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
+pinout:
+  # Inputs
+  ui[0]: "tile(0,0) left in"
+  ui[1]: "tile(0,1) left in"
+  ui[2]: "tile(0,2) left in"
+  ui[3]: "tile(0,3) left in"
+  ui[4]: "tile(0,4) left in"
+  ui[5]: "tile(0,5) left in"
+  ui[6]: "tile(0,6) left in"
+  ui[7]: "tile(0,7) left in"
+
+  # Outputs
+  uo[0]: "tile(7,0) right out"
+  uo[1]: "tile(7,1) right out"
+  uo[2]: "tile(7,2) right out"
+  uo[3]: "tile(7,3) right out"
+  uo[4]: "tile(7,4) right out"
+  uo[5]: "tile(7,5) right out"
+  uo[6]: "tile(7,6) right out"
+  uo[7]: "tile(7,7) right out"
+
+  # Bidirectional pins
+  uio[0]: "_scan enable_ input"
+  uio[1]: "_scan chain_ input"
+  uio[2]: "_configuration_ / _loop breaker class_ input bit 0"
+  uio[3]: "_configuration_ / _loop breaker class_ input bit 1"
+  uio[4]: "_loop breaker enable_ input"
+  uio[5]: "clock gating for flip-flops"
+  uio[6]: "clock gating for simulated latches"
+  uio[7]: "_scan chain_ output"
+
+# Do not change!
+yaml_version: 6
