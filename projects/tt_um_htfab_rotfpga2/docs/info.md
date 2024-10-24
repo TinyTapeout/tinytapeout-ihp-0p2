@@ -116,7 +116,16 @@ Bidirectional pins:
 
 ## How to test
 
-Follow the test suite the `test` directory.
+Follow the test suite the `test` directory. It sets up the FPGA with the following two
+configurations and runs a battery of tests on each.
+
+Test configuration 1 used for upload, download, single-step and propagation tests:
+
+![Diagram corresponding to `fpga_config` in `test.py`](rotfpga-test1.svg)
+
+Test configuration 2 used for testing the loop breaker with manual and automatic cycles:
+
+![Diagram corresponding to `cfg` from the loop breaker test in `test.py`](rotfpga-test2.svg)
 
 ## External hardware
 

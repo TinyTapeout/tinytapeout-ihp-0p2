@@ -411,15 +411,15 @@ MACRO tt_um_htfab_rotfpga2
   END VPWR
   OBS
     LAYER Metal1 ;
-     RECT  2.88 3.56 210.385 313.74 ;
+     RECT  2.88 3.56 211.825 313.74 ;
     LAYER Metal2 ;
-     RECT  2.88 3.56 210.385 313.74 ;
+     RECT  2.88 3.56 211.825 313.74 ;
     LAYER Metal3 ;
-     RECT  2.88 3.56 210.385 313.74 ;
+     RECT  2.88 3.56 211.825 313.74 ;
     LAYER Metal4 ;
-     RECT  2.88 3.56 210.385 313.74 ;
+     RECT  2.88 3.56 211.825 313.74 ;
     LAYER Metal5 ;
-     RECT  2.88 3.56 210.385 313.74 ;
+     RECT  2.88 3.56 211.825 313.74 ;
   END
 END tt_um_htfab_rotfpga2
 END LIBRARY
