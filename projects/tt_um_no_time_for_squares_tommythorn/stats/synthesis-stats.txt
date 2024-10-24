@@ -1,0 +1,62 @@
+
+17. Printing statistics.
+
+=== tt_um_no_time_for_squares_tommythorn ===
+
+   Number of wires:               8674
+   Number of wire bits:           8709
+   Number of public wires:         656
+   Number of public wire bits:     691
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               8039
+     sg13g2_a21o_1                 146
+     sg13g2_a21o_2                   1
+     sg13g2_a21oi_1                804
+     sg13g2_a21oi_2                  6
+     sg13g2_a221oi_1               179
+     sg13g2_a22oi_1                411
+     sg13g2_and2_1                 105
+     sg13g2_and2_2                   2
+     sg13g2_and3_1                  38
+     sg13g2_and3_2                   1
+     sg13g2_and4_1                  23
+     sg13g2_buf_1                  779
+     sg13g2_buf_16                   7
+     sg13g2_buf_2                  306
+     sg13g2_buf_4                   41
+     sg13g2_buf_8                   26
+     sg13g2_dfrbp_1                651
+     sg13g2_inv_1                  394
+     sg13g2_inv_2                    2
+     sg13g2_mux2_1                 119
+     sg13g2_nand2_1                827
+     sg13g2_nand2_2                  2
+     sg13g2_nand2b_1                81
+     sg13g2_nand3_1                198
+     sg13g2_nand3b_1                33
+     sg13g2_nand4_1                 79
+     sg13g2_nor2_1                 832
+     sg13g2_nor2_2                   6
+     sg13g2_nor2b_1                 48
+     sg13g2_nor3_1                 194
+     sg13g2_nor3_2                   5
+     sg13g2_nor4_1                  97
+     sg13g2_nor4_2                  12
+     sg13g2_o21ai_1               1010
+     sg13g2_or2_1                   71
+     sg13g2_or2_2                    1
+     sg13g2_or3_1                   38
+     sg13g2_or3_2                    1
+     sg13g2_or4_1                   24
+     sg13g2_or4_2                    2
+     sg13g2_tiehi                    1
+     sg13g2_xnor2_1                331
+     sg13g2_xor2_1                 105
+
+   Chip area for module '\tt_um_no_time_for_squares_tommythorn': 99658.528200
+     of which used for sequential elements: 30710.534400 (30.82%)
+
