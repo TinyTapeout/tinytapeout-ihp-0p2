@@ -1,0 +1,57 @@
+# Tiny Tapeout project information
+project:
+  author:       "Matt Venn"      # Your name
+  title:        "Frequency counter"      # Project title
+  language:     "Verilog" # other examples include Verilog, Amaranth, VHDL, etc
+  description:  "measured frequency of a signal on pin 0 and displays on the 7 segment display"      # Short description of what your project does
+  discord:      "mattvenn"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  clock_hz:     10000000      # Clock frequency in Hz (or 0 if not applicable)
+
+  # How many tiles your design occupies? A single tile is about 167x108 uM.
+  tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2 or 6x2
+
+  # Your top module name must start with "tt_um_". Make it unique by including your github username:
+  top_module:  "tt_um_frequency_counter"      
+
+  # List your project's source files here.
+  # Source files must be in ./src and you must list each source file separately, one per line.
+  # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
+  source_files:        
+    - tt_um_frequency_counter.v
+    - ../frequency_counter/src/edge_detect.v
+    - ../frequency_counter/src/frequency_counter.v
+    - ../frequency_counter/src/seven_segment.v
+
+pinout:
+  # Inputs
+  ui[0]: "signal to measure"
+  ui[1]: "debug mode"
+  ui[2]: "load new period"
+  ui[3]: "none"
+  ui[4]: "count period bit 11"
+  ui[5]: "count period bit 10"
+  ui[6]: "count period bit 9"
+  ui[7]: "count period bit 8"
+
+  # Outputs
+  uo[0]: "segment a"
+  uo[1]: "segment b"
+  uo[2]: "segment c"
+  uo[3]: "segment d"
+  uo[4]: "segment e"
+  uo[5]: "segment f"
+  uo[6]: "segment g"
+  uo[7]: "digit select"
+
+  # Bidirectional pins
+  uio[7]: "count period bit 07 or debug edge  bit 2"
+  uio[6]: "count period bit 06 or debug edge  bit 1"
+  uio[5]: "count period bit 05 or debug edge  bit 0"
+  uio[4]: "count period bit 04 or debug clock  bit 2"
+  uio[3]: "count period bit 03 or debug clock  bit 1"
+  uio[2]: "count period bit 02 or debug clock  bit 0"
+  uio[1]: "count period bit 01 or debug state  bit 1"
+  uio[0]: "count period bit 00 or debug state  bit 0"
+    
+# Do not change!
+yaml_version: 6
