@@ -1,0 +1,58 @@
+
+17. Printing statistics.
+
+=== tt_um_edwintorok ===
+
+   Number of wires:               4964
+   Number of wire bits:           4999
+   Number of public wires:         329
+   Number of public wire bits:     364
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               4751
+     sg13g2_a21o_1                  43
+     sg13g2_a21oi_1                344
+     sg13g2_a21oi_2                 23
+     sg13g2_a221oi_1                22
+     sg13g2_a22oi_1                 49
+     sg13g2_and2_1                  14
+     sg13g2_and3_1                   6
+     sg13g2_buf_1                  200
+     sg13g2_buf_16                   2
+     sg13g2_buf_2                   13
+     sg13g2_buf_4                   25
+     sg13g2_buf_8                   19
+     sg13g2_dfrbp_1                229
+     sg13g2_inv_1                  635
+     sg13g2_inv_2                   13
+     sg13g2_inv_4                    3
+     sg13g2_inv_8                    3
+     sg13g2_mux2_1                   5
+     sg13g2_nand2_1                731
+     sg13g2_nand2_2                110
+     sg13g2_nand2b_1               138
+     sg13g2_nand2b_2                 7
+     sg13g2_nand3_1                213
+     sg13g2_nand3b_1                24
+     sg13g2_nand4_1                 18
+     sg13g2_nor2_1                 671
+     sg13g2_nor2_2                  46
+     sg13g2_nor2b_1                136
+     sg13g2_nor2b_2                  2
+     sg13g2_nor3_1                  92
+     sg13g2_nor3_2                   1
+     sg13g2_nor4_1                  15
+     sg13g2_o21ai_1                274
+     sg13g2_or2_1                    7
+     sg13g2_or3_1                    3
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1                452
+     sg13g2_xor2_1                 161
+
+   Chip area for module '\tt_um_edwintorok': 51490.819800
+     of which used for sequential elements: 10802.937600 (20.98%)
+
