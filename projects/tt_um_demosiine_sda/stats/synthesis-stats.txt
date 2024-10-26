@@ -1,0 +1,59 @@
+
+17. Printing statistics.
+
+=== tt_um_demosiine_sda ===
+
+   Number of wires:               3170
+   Number of wire bits:           3205
+   Number of public wires:          81
+   Number of public wire bits:     116
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3114
+     sg13g2_a21o_1                  66
+     sg13g2_a21oi_1                208
+     sg13g2_a21oi_2                  3
+     sg13g2_a221oi_1               103
+     sg13g2_a22oi_1                101
+     sg13g2_and2_1                  89
+     sg13g2_and3_1                  26
+     sg13g2_and4_1                  18
+     sg13g2_buf_1                  320
+     sg13g2_buf_16                   1
+     sg13g2_buf_2                  106
+     sg13g2_buf_4                   43
+     sg13g2_buf_8                   10
+     sg13g2_dfrbp_1                 72
+     sg13g2_inv_1                   55
+     sg13g2_inv_2                    4
+     sg13g2_mux2_1                  64
+     sg13g2_mux4_1                   2
+     sg13g2_nand2_1                317
+     sg13g2_nand2_2                  2
+     sg13g2_nand2b_1                66
+     sg13g2_nand3_1                179
+     sg13g2_nand3b_1                21
+     sg13g2_nand4_1                107
+     sg13g2_nor2_1                 280
+     sg13g2_nor2_2                   6
+     sg13g2_nor2b_1                 59
+     sg13g2_nor2b_2                  1
+     sg13g2_nor3_1                 126
+     sg13g2_nor3_2                   2
+     sg13g2_nor4_1                  62
+     sg13g2_nor4_2                   6
+     sg13g2_o21ai_1                338
+     sg13g2_or2_1                   46
+     sg13g2_or3_1                   27
+     sg13g2_or4_1                   12
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1                121
+     sg13g2_xor2_1                  43
+
+   Chip area for module '\tt_um_demosiine_sda': 32909.398200
+     of which used for sequential elements: 3396.556800 (10.32%)
+
