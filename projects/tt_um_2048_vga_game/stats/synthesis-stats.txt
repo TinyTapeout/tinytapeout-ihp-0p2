@@ -1,0 +1,60 @@
+
+17. Printing statistics.
+
+=== tt_um_2048_vga_game ===
+
+   Number of wires:               5842
+   Number of wire bits:           5877
+   Number of public wires:         355
+   Number of public wire bits:     390
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               5501
+     sg13g2_a21o_1                 122
+     sg13g2_a21o_2                   1
+     sg13g2_a21oi_1                544
+     sg13g2_a21oi_2                  2
+     sg13g2_a221oi_1               193
+     sg13g2_a22oi_1                170
+     sg13g2_and2_1                 125
+     sg13g2_and3_1                  17
+     sg13g2_and3_2                   1
+     sg13g2_and4_1                  18
+     sg13g2_buf_1                  732
+     sg13g2_buf_16                   3
+     sg13g2_buf_2                   77
+     sg13g2_buf_4                   26
+     sg13g2_buf_8                   14
+     sg13g2_dfrbp_1                357
+     sg13g2_inv_1                  153
+     sg13g2_inv_2                    1
+     sg13g2_mux2_1                  83
+     sg13g2_mux4_1                  87
+     sg13g2_nand2_1                507
+     sg13g2_nand2_2                  1
+     sg13g2_nand2b_1               129
+     sg13g2_nand3_1                243
+     sg13g2_nand3b_1                27
+     sg13g2_nand4_1                 75
+     sg13g2_nor2_1                 612
+     sg13g2_nor2_2                   1
+     sg13g2_nor2b_1                 59
+     sg13g2_nor3_1                 134
+     sg13g2_nor3_2                   1
+     sg13g2_nor4_1                  65
+     sg13g2_nor4_2                   2
+     sg13g2_o21ai_1                683
+     sg13g2_or2_1                   59
+     sg13g2_or3_1                   13
+     sg13g2_or4_1                    8
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1                 91
+     sg13g2_xor2_1                  63
+
+   Chip area for module '\tt_um_2048_vga_game': 66612.898800
+     of which used for sequential elements: 16841.260800 (25.28%)
+
