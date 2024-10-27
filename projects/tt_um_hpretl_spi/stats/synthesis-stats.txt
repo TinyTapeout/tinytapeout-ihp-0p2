@@ -3,30 +3,58 @@
 
 === tt_um_hpretl_spi ===
 
-   Number of wires:                132
-   Number of wire bits:            167
-   Number of public wires:          43
-   Number of public wire bits:      78
+   Number of wires:               1464
+   Number of wire bits:           1499
+   Number of public wires:         106
+   Number of public wire bits:     141
    Number of ports:                  8
    Number of port bits:             43
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                115
-     sg13g2_buf_1                   19
-     sg13g2_buf_8                    2
-     sg13g2_dfrbp_1                 33
-     sg13g2_inv_1                    6
-     sg13g2_mux2_1                  34
-     sg13g2_nand2_1                  6
-     sg13g2_nand4_1                  4
-     sg13g2_nor3_2                   1
-     sg13g2_nor4_1                   1
-     sg13g2_o21ai_1                  6
+   Number of cells:               1385
+     sg13g2_a21o_1                  35
+     sg13g2_a21o_2                   1
+     sg13g2_a21oi_1                 84
+     sg13g2_a21oi_2                  2
+     sg13g2_a221oi_1                64
+     sg13g2_a22oi_1                 43
+     sg13g2_and2_1                  37
+     sg13g2_and3_1                  12
+     sg13g2_and4_1                  11
+     sg13g2_buf_1                  109
+     sg13g2_buf_16                   1
+     sg13g2_buf_2                   23
+     sg13g2_buf_4                    8
+     sg13g2_buf_8                    9
+     sg13g2_dfrbp_1                 95
+     sg13g2_inv_1                   54
+     sg13g2_inv_2                    4
+     sg13g2_mux2_1                  42
+     sg13g2_mux4_1                   1
+     sg13g2_nand2_1                140
+     sg13g2_nand2_2                  1
+     sg13g2_nand2b_1                43
+     sg13g2_nand3_1                 35
+     sg13g2_nand3b_1                10
+     sg13g2_nand4_1                 23
+     sg13g2_nor2_1                 101
+     sg13g2_nor2_2                   3
+     sg13g2_nor2b_1                 37
+     sg13g2_nor2b_2                  2
+     sg13g2_nor3_1                  33
+     sg13g2_nor3_2                   3
+     sg13g2_nor4_1                  10
+     sg13g2_nor4_2                   2
+     sg13g2_o21ai_1                142
+     sg13g2_or2_1                   33
+     sg13g2_or3_1                    5
+     sg13g2_or4_1                    6
      sg13g2_tiehi                    1
      sg13g2_tielo                    1
-     sg13g2_xor2_1                   1
+     sg13g2_xnor2_1                 92
+     sg13g2_xor2_1                  27
 
-   Chip area for module '\tt_um_hpretl_spi': 2589.148800
-     of which used for sequential elements: 1556.755200 (60.13%)
+   Chip area for module '\tt_um_hpretl_spi': 17491.005000
+     of which used for sequential elements: 4481.568000 (25.62%)
 
