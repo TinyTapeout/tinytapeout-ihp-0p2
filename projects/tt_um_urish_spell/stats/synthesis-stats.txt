@@ -1,0 +1,61 @@
+
+17. Printing statistics.
+
+=== tt_um_urish_spell ===
+
+   Number of wires:              18409
+   Number of wire bits:          18444
+   Number of public wires:        2704
+   Number of public wire bits:    2739
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              15705
+     sg13g2_a21o_1                  73
+     sg13g2_a21oi_1                287
+     sg13g2_a21oi_2                  7
+     sg13g2_a221oi_1               214
+     sg13g2_a22oi_1                249
+     sg13g2_and2_1                 125
+     sg13g2_and2_2                   1
+     sg13g2_and3_1                  27
+     sg13g2_and3_2                   6
+     sg13g2_and4_1                  23
+     sg13g2_buf_1                 1284
+     sg13g2_buf_16                   6
+     sg13g2_buf_2                  563
+     sg13g2_buf_4                  126
+     sg13g2_buf_8                   68
+     sg13g2_dfrbp_1               2720
+     sg13g2_inv_1                  119
+     sg13g2_inv_2                    1
+     sg13g2_mux2_1                 116
+     sg13g2_mux4_1                 861
+     sg13g2_nand2_1               4983
+     sg13g2_nand2_2                  5
+     sg13g2_nand2b_1                56
+     sg13g2_nand3_1                106
+     sg13g2_nand3b_1                17
+     sg13g2_nand4_1                 45
+     sg13g2_nor2_1                 640
+     sg13g2_nor2_2                   7
+     sg13g2_nor2b_1                 71
+     sg13g2_nor2b_2                  3
+     sg13g2_nor3_1                  97
+     sg13g2_nor3_2                  12
+     sg13g2_nor4_1                  30
+     sg13g2_nor4_2                  13
+     sg13g2_o21ai_1               2626
+     sg13g2_or2_1                   32
+     sg13g2_or3_1                   16
+     sg13g2_or3_2                    1
+     sg13g2_or4_1                   11
+     sg13g2_tiehi                    1
+     sg13g2_xnor2_1                 46
+     sg13g2_xor2_1                  11
+
+   Chip area for module '\tt_um_urish_spell': 264158.155800
+     of which used for sequential elements: 128314.368000 (48.57%)
+
