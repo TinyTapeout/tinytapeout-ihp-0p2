@@ -1,0 +1,58 @@
+
+17. Printing statistics.
+
+=== tt_um_a1k0n_vgadonut ===
+
+   Number of wires:              11103
+   Number of wire bits:          11138
+   Number of public wires:         394
+   Number of public wire bits:     429
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              10715
+     sg13g2_a21o_1                  60
+     sg13g2_a21oi_1                856
+     sg13g2_a21oi_2                 15
+     sg13g2_a221oi_1                31
+     sg13g2_a22oi_1                149
+     sg13g2_and2_1                  11
+     sg13g2_and3_1                   6
+     sg13g2_buf_1                  528
+     sg13g2_buf_16                  12
+     sg13g2_buf_2                   79
+     sg13g2_buf_4                   68
+     sg13g2_buf_8                   53
+     sg13g2_dfrbp_1                404
+     sg13g2_inv_1                 1216
+     sg13g2_inv_2                   32
+     sg13g2_inv_4                   11
+     sg13g2_inv_8                    1
+     sg13g2_mux2_1                  28
+     sg13g2_nand2_1               1879
+     sg13g2_nand2_2                238
+     sg13g2_nand2b_1               318
+     sg13g2_nand2b_2                10
+     sg13g2_nand3_1                469
+     sg13g2_nand3b_1                46
+     sg13g2_nand4_1                 19
+     sg13g2_nor2_1                1439
+     sg13g2_nor2_2                  56
+     sg13g2_nor2b_1                346
+     sg13g2_nor2b_2                 10
+     sg13g2_nor3_1                  88
+     sg13g2_nor3_2                   2
+     sg13g2_nor4_1                  10
+     sg13g2_o21ai_1                739
+     sg13g2_or2_1                   29
+     sg13g2_or3_1                    1
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1               1080
+     sg13g2_xor2_1                 374
+
+   Chip area for module '\tt_um_a1k0n_vgadonut': 112536.156600
+     of which used for sequential elements: 19058.457600 (16.94%)
+
