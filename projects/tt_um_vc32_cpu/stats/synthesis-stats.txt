@@ -3,8 +3,8 @@
 
 === tt_um_vc32_cpu ===
 
-   Number of wires:              17261
-   Number of wire bits:          17296
+   Number of wires:              17538
+   Number of wire bits:          17573
    Number of public wires:        2508
    Number of public wire bits:    2543
    Number of ports:                  8
@@ -12,46 +12,52 @@
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:              14792
-     sg13g2_a21o_1                 131
-     sg13g2_a21oi_1                873
-     sg13g2_a21oi_2                  4
-     sg13g2_a221oi_1               211
-     sg13g2_a22oi_1                762
-     sg13g2_and2_1                 192
-     sg13g2_and3_1                  41
-     sg13g2_and3_2                   6
-     sg13g2_and4_1                  29
-     sg13g2_buf_1                 1661
-     sg13g2_buf_16                   6
-     sg13g2_buf_2                  236
-     sg13g2_buf_4                  116
-     sg13g2_buf_8                   42
+   Number of cells:              15069
+     sg13g2_a21o_1                 152
+     sg13g2_a21o_2                   1
+     sg13g2_a21oi_1                869
+     sg13g2_a21oi_2                  7
+     sg13g2_a221oi_1               222
+     sg13g2_a22oi_1                759
+     sg13g2_and2_1                 243
+     sg13g2_and2_2                   2
+     sg13g2_and3_1                  52
+     sg13g2_and3_2                   3
+     sg13g2_and4_1                  38
+     sg13g2_buf_1                 1540
+     sg13g2_buf_16                   4
+     sg13g2_buf_2                  316
+     sg13g2_buf_4                  126
+     sg13g2_buf_8                  113
      sg13g2_dfrbp_1               2485
-     sg13g2_inv_1                  298
-     sg13g2_inv_2                    7
-     sg13g2_mux2_1                1849
-     sg13g2_mux4_1                 315
-     sg13g2_nand2_1               1351
-     sg13g2_nand2b_1               199
-     sg13g2_nand3_1                382
-     sg13g2_nand3b_1                39
+     sg13g2_inv_1                  275
+     sg13g2_inv_2                   11
+     sg13g2_inv_4                    4
+     sg13g2_mux2_1                1770
+     sg13g2_mux4_1                 301
+     sg13g2_nand2_1               1455
+     sg13g2_nand2_2                  7
+     sg13g2_nand2b_1               217
+     sg13g2_nand2b_2                 2
+     sg13g2_nand3_1                378
+     sg13g2_nand3b_1                72
      sg13g2_nand4_1                195
-     sg13g2_nor2_1                1040
-     sg13g2_nor2_2                   3
-     sg13g2_nor2b_1                296
-     sg13g2_nor3_1                 242
-     sg13g2_nor3_2                   6
-     sg13g2_nor4_1                  93
-     sg13g2_nor4_2                   8
-     sg13g2_o21ai_1               1307
-     sg13g2_or2_1                   97
-     sg13g2_or3_1                   27
+     sg13g2_nor2_1                 887
+     sg13g2_nor2_2                  10
+     sg13g2_nor2b_1                377
+     sg13g2_nor2b_2                  8
+     sg13g2_nor3_1                 248
+     sg13g2_nor3_2                   8
+     sg13g2_nor4_1                  92
+     sg13g2_nor4_2                  12
+     sg13g2_o21ai_1               1431
+     sg13g2_or2_1                  112
+     sg13g2_or3_1                   22
      sg13g2_or4_1                   20
      sg13g2_tiehi                    1
-     sg13g2_xnor2_1                150
-     sg13g2_xor2_1                  72
+     sg13g2_xnor2_1                162
+     sg13g2_xor2_1                  60
 
-   Chip area for module '\tt_um_vc32_cpu': 253364.857200
-     of which used for sequential elements: 117228.384000 (46.27%)
+   Chip area for module '\tt_um_vc32_cpu': 256623.633000
+     of which used for sequential elements: 117228.384000 (45.68%)
 
