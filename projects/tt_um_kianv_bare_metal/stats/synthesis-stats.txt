@@ -1,0 +1,61 @@
+
+17. Printing statistics.
+
+=== tt_um_kianv_bare_metal ===
+
+   Number of wires:              10286
+   Number of wire bits:          10321
+   Number of public wires:        1298
+   Number of public wire bits:    1333
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               9038
+     sg13g2_a21o_1                 144
+     sg13g2_a21o_2                   1
+     sg13g2_a21oi_1                556
+     sg13g2_a21oi_2                 14
+     sg13g2_a221oi_1               159
+     sg13g2_a22oi_1                174
+     sg13g2_and2_1                 246
+     sg13g2_and2_2                   1
+     sg13g2_and3_1                  53
+     sg13g2_and3_2                   3
+     sg13g2_and4_1                  27
+     sg13g2_and4_2                   1
+     sg13g2_buf_1                  979
+     sg13g2_buf_16                   4
+     sg13g2_buf_2                  227
+     sg13g2_buf_4                  113
+     sg13g2_buf_8                   62
+     sg13g2_dfrbp_1               1264
+     sg13g2_inv_1                  178
+     sg13g2_inv_2                    1
+     sg13g2_mux2_1                 473
+     sg13g2_mux4_1                 365
+     sg13g2_nand2_1               1017
+     sg13g2_nand2_2                  3
+     sg13g2_nand2b_1               111
+     sg13g2_nand3_1                221
+     sg13g2_nand3b_1                39
+     sg13g2_nand4_1                 99
+     sg13g2_nor2_1                 639
+     sg13g2_nor2_2                   9
+     sg13g2_nor2b_1                223
+     sg13g2_nor3_1                 243
+     sg13g2_nor3_2                  13
+     sg13g2_nor4_1                  63
+     sg13g2_nor4_2                   8
+     sg13g2_o21ai_1                967
+     sg13g2_or2_1                   73
+     sg13g2_or3_1                   42
+     sg13g2_or4_1                   29
+     sg13g2_tiehi                    1
+     sg13g2_xnor2_1                138
+     sg13g2_xor2_1                  55
+
+   Chip area for module '\tt_um_kianv_bare_metal': 145423.026000
+     of which used for sequential elements: 59628.441600 (41.00%)
+
