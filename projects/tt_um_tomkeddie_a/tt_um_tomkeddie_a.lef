@@ -44,13 +44,13 @@ END tt_um_tomkeddie_a_via4_5_2200_440_1_5_410_410
 MACRO tt_um_tomkeddie_a
   FOREIGN tt_um_tomkeddie_a 0 0 ;
   CLASS BLOCK ;
-  SIZE 212.16 BY 313.74 ;
+  SIZE 212.16 BY 154.98 ;
   PIN clk
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  198.57 312.74 198.87 313.74 ;
+        RECT  198.57 153.98 198.87 154.98 ;
     END
   END clk
   PIN ena
@@ -58,7 +58,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  202.41 312.74 202.71 313.74 ;
+        RECT  202.41 153.98 202.71 154.98 ;
     END
   END ena
   PIN rst_n
@@ -66,7 +66,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  194.73 312.74 195.03 313.74 ;
+        RECT  194.73 153.98 195.03 154.98 ;
     END
   END rst_n
   PIN ui_in[0]
@@ -74,7 +74,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  190.89 312.74 191.19 313.74 ;
+        RECT  190.89 153.98 191.19 154.98 ;
     END
   END ui_in[0]
   PIN ui_in[1]
@@ -82,7 +82,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  187.05 312.74 187.35 313.74 ;
+        RECT  187.05 153.98 187.35 154.98 ;
     END
   END ui_in[1]
   PIN ui_in[2]
@@ -90,7 +90,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  183.21 312.74 183.51 313.74 ;
+        RECT  183.21 153.98 183.51 154.98 ;
     END
   END ui_in[2]
   PIN ui_in[3]
@@ -98,7 +98,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  179.37 312.74 179.67 313.74 ;
+        RECT  179.37 153.98 179.67 154.98 ;
     END
   END ui_in[3]
   PIN ui_in[4]
@@ -106,7 +106,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  175.53 312.74 175.83 313.74 ;
+        RECT  175.53 153.98 175.83 154.98 ;
     END
   END ui_in[4]
   PIN ui_in[5]
@@ -114,7 +114,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  171.69 312.74 171.99 313.74 ;
+        RECT  171.69 153.98 171.99 154.98 ;
     END
   END ui_in[5]
   PIN ui_in[6]
@@ -122,7 +122,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  167.85 312.74 168.15 313.74 ;
+        RECT  167.85 153.98 168.15 154.98 ;
     END
   END ui_in[6]
   PIN ui_in[7]
@@ -130,7 +130,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  164.01 312.74 164.31 313.74 ;
+        RECT  164.01 153.98 164.31 154.98 ;
     END
   END ui_in[7]
   PIN uio_in[0]
@@ -138,7 +138,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  160.17 312.74 160.47 313.74 ;
+        RECT  160.17 153.98 160.47 154.98 ;
     END
   END uio_in[0]
   PIN uio_in[1]
@@ -146,7 +146,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  156.33 312.74 156.63 313.74 ;
+        RECT  156.33 153.98 156.63 154.98 ;
     END
   END uio_in[1]
   PIN uio_in[2]
@@ -154,7 +154,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  152.49 312.74 152.79 313.74 ;
+        RECT  152.49 153.98 152.79 154.98 ;
     END
   END uio_in[2]
   PIN uio_in[3]
@@ -162,7 +162,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  148.65 312.74 148.95 313.74 ;
+        RECT  148.65 153.98 148.95 154.98 ;
     END
   END uio_in[3]
   PIN uio_in[4]
@@ -170,7 +170,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  144.81 312.74 145.11 313.74 ;
+        RECT  144.81 153.98 145.11 154.98 ;
     END
   END uio_in[4]
   PIN uio_in[5]
@@ -178,7 +178,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  140.97 312.74 141.27 313.74 ;
+        RECT  140.97 153.98 141.27 154.98 ;
     END
   END uio_in[5]
   PIN uio_in[6]
@@ -186,7 +186,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  137.13 312.74 137.43 313.74 ;
+        RECT  137.13 153.98 137.43 154.98 ;
     END
   END uio_in[6]
   PIN uio_in[7]
@@ -194,7 +194,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  133.29 312.74 133.59 313.74 ;
+        RECT  133.29 153.98 133.59 154.98 ;
     END
   END uio_in[7]
   PIN uio_oe[0]
@@ -202,7 +202,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  68.01 312.74 68.31 313.74 ;
+        RECT  68.01 153.98 68.31 154.98 ;
     END
   END uio_oe[0]
   PIN uio_oe[1]
@@ -210,7 +210,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  64.17 312.74 64.47 313.74 ;
+        RECT  64.17 153.98 64.47 154.98 ;
     END
   END uio_oe[1]
   PIN uio_oe[2]
@@ -218,7 +218,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  60.33 312.74 60.63 313.74 ;
+        RECT  60.33 153.98 60.63 154.98 ;
     END
   END uio_oe[2]
   PIN uio_oe[3]
@@ -226,7 +226,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  56.49 312.74 56.79 313.74 ;
+        RECT  56.49 153.98 56.79 154.98 ;
     END
   END uio_oe[3]
   PIN uio_oe[4]
@@ -234,7 +234,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  52.65 312.74 52.95 313.74 ;
+        RECT  52.65 153.98 52.95 154.98 ;
     END
   END uio_oe[4]
   PIN uio_oe[5]
@@ -242,7 +242,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  48.81 312.74 49.11 313.74 ;
+        RECT  48.81 153.98 49.11 154.98 ;
     END
   END uio_oe[5]
   PIN uio_oe[6]
@@ -250,7 +250,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  44.97 312.74 45.27 313.74 ;
+        RECT  44.97 153.98 45.27 154.98 ;
     END
   END uio_oe[6]
   PIN uio_oe[7]
@@ -258,7 +258,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  41.13 312.74 41.43 313.74 ;
+        RECT  41.13 153.98 41.43 154.98 ;
     END
   END uio_oe[7]
   PIN uio_out[0]
@@ -266,7 +266,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  98.73 312.74 99.03 313.74 ;
+        RECT  98.73 153.98 99.03 154.98 ;
     END
   END uio_out[0]
   PIN uio_out[1]
@@ -274,7 +274,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  94.89 312.74 95.19 313.74 ;
+        RECT  94.89 153.98 95.19 154.98 ;
     END
   END uio_out[1]
   PIN uio_out[2]
@@ -282,7 +282,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  91.05 312.74 91.35 313.74 ;
+        RECT  91.05 153.98 91.35 154.98 ;
     END
   END uio_out[2]
   PIN uio_out[3]
@@ -290,7 +290,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  87.21 312.74 87.51 313.74 ;
+        RECT  87.21 153.98 87.51 154.98 ;
     END
   END uio_out[3]
   PIN uio_out[4]
@@ -298,7 +298,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  83.37 312.74 83.67 313.74 ;
+        RECT  83.37 153.98 83.67 154.98 ;
     END
   END uio_out[4]
   PIN uio_out[5]
@@ -306,7 +306,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  79.53 312.74 79.83 313.74 ;
+        RECT  79.53 153.98 79.83 154.98 ;
     END
   END uio_out[5]
   PIN uio_out[6]
@@ -314,7 +314,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  75.69 312.74 75.99 313.74 ;
+        RECT  75.69 153.98 75.99 154.98 ;
     END
   END uio_out[6]
   PIN uio_out[7]
@@ -322,7 +322,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  71.85 312.74 72.15 313.74 ;
+        RECT  71.85 153.98 72.15 154.98 ;
     END
   END uio_out[7]
   PIN uo_out[0]
@@ -330,7 +330,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  129.45 312.74 129.75 313.74 ;
+        RECT  129.45 153.98 129.75 154.98 ;
     END
   END uo_out[0]
   PIN uo_out[1]
@@ -338,7 +338,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  125.61 312.74 125.91 313.74 ;
+        RECT  125.61 153.98 125.91 154.98 ;
     END
   END uo_out[1]
   PIN uo_out[2]
@@ -346,7 +346,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  121.77 312.74 122.07 313.74 ;
+        RECT  121.77 153.98 122.07 154.98 ;
     END
   END uo_out[2]
   PIN uo_out[3]
@@ -354,7 +354,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  117.93 312.74 118.23 313.74 ;
+        RECT  117.93 153.98 118.23 154.98 ;
     END
   END uo_out[3]
   PIN uo_out[4]
@@ -362,7 +362,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  114.09 312.74 114.39 313.74 ;
+        RECT  114.09 153.98 114.39 154.98 ;
     END
   END uo_out[4]
   PIN uo_out[5]
@@ -370,7 +370,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  110.25 312.74 110.55 313.74 ;
+        RECT  110.25 153.98 110.55 154.98 ;
     END
   END uo_out[5]
   PIN uo_out[6]
@@ -378,7 +378,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  106.41 312.74 106.71 313.74 ;
+        RECT  106.41 153.98 106.71 154.98 ;
     END
   END uo_out[6]
   PIN uo_out[7]
@@ -386,7 +386,7 @@ MACRO tt_um_tomkeddie_a
     USE SIGNAL ;
     PORT
       LAYER Metal5 ;
-        RECT  102.57 312.74 102.87 313.74 ;
+        RECT  102.57 153.98 102.87 154.98 ;
     END
   END uo_out[7]
   PIN VGND
@@ -394,9 +394,9 @@ MACRO tt_um_tomkeddie_a
     USE GROUND ;
     PORT
       LAYER Metal5 ;
-        RECT  166.58 3.56 168.78 310.18 ;
-        RECT  90.98 3.56 93.18 310.18 ;
-        RECT  15.38 3.56 17.58 310.18 ;
+        RECT  166.58 3.56 168.78 151.42 ;
+        RECT  90.98 3.56 93.18 151.42 ;
+        RECT  15.38 3.56 17.58 151.42 ;
     END
   END VGND
   PIN VPWR
@@ -404,22 +404,22 @@ MACRO tt_um_tomkeddie_a
     USE POWER ;
     PORT
       LAYER Metal5 ;
-        RECT  204.38 3.56 206.58 310.18 ;
-        RECT  128.78 3.56 130.98 310.18 ;
-        RECT  53.18 3.56 55.38 310.18 ;
+        RECT  204.38 3.56 206.58 151.42 ;
+        RECT  128.78 3.56 130.98 151.42 ;
+        RECT  53.18 3.56 55.38 151.42 ;
     END
   END VPWR
   OBS
     LAYER Metal1 ;
-     RECT  2.88 3.56 209.28 313.74 ;
+     RECT  2.255 3.56 211.825 154.98 ;
     LAYER Metal2 ;
-     RECT  2.88 3.56 209.28 313.74 ;
+     RECT  2.255 3.56 211.825 154.98 ;
     LAYER Metal3 ;
-     RECT  2.88 3.56 209.28 313.74 ;
+     RECT  2.255 3.56 211.825 154.98 ;
     LAYER Metal4 ;
-     RECT  2.88 3.56 209.28 313.74 ;
+     RECT  2.255 3.56 211.825 154.98 ;
     LAYER Metal5 ;
-     RECT  2.88 3.56 209.28 313.74 ;
+     RECT  2.255 3.56 211.825 154.98 ;
   END
 END tt_um_tomkeddie_a
 END LIBRARY
