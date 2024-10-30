@@ -1,0 +1,67 @@
+
+17. Printing statistics.
+
+=== tt_um_MichaelBell_mandelbrot ===
+
+   Number of wires:               7886
+   Number of wire bits:           7921
+   Number of public wires:         213
+   Number of public wire bits:     248
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               7699
+     sg13g2_a21o_1                 221
+     sg13g2_a21o_2                   3
+     sg13g2_a21oi_1                513
+     sg13g2_a21oi_2                 28
+     sg13g2_a221oi_1               111
+     sg13g2_a22oi_1                218
+     sg13g2_and2_1                 199
+     sg13g2_and2_2                   1
+     sg13g2_and3_1                  60
+     sg13g2_and3_2                   8
+     sg13g2_and4_1                  41
+     sg13g2_buf_1                  800
+     sg13g2_buf_16                   3
+     sg13g2_buf_2                  183
+     sg13g2_buf_4                   93
+     sg13g2_buf_8                   48
+     sg13g2_dfrbp_1                203
+     sg13g2_inv_1                  244
+     sg13g2_inv_2                    6
+     sg13g2_inv_4                    4
+     sg13g2_inv_8                    1
+     sg13g2_mux2_1                 131
+     sg13g2_mux2_2                   1
+     sg13g2_mux4_1                   1
+     sg13g2_nand2_1                915
+     sg13g2_nand2_2                  7
+     sg13g2_nand2b_1               172
+     sg13g2_nand2b_2                 2
+     sg13g2_nand3_1                241
+     sg13g2_nand3b_1                30
+     sg13g2_nand4_1                103
+     sg13g2_nor2_1                 626
+     sg13g2_nor2_2                  16
+     sg13g2_nor2b_1                130
+     sg13g2_nor2b_2                  3
+     sg13g2_nor3_1                 175
+     sg13g2_nor3_2                  18
+     sg13g2_nor4_1                  52
+     sg13g2_nor4_2                   7
+     sg13g2_o21ai_1                742
+     sg13g2_or2_1                  149
+     sg13g2_or3_1                   54
+     sg13g2_or3_2                    1
+     sg13g2_or4_1                   21
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1                815
+     sg13g2_xor2_1                 297
+
+   Chip area for module '\tt_um_MichaelBell_mandelbrot': 84464.780400
+     of which used for sequential elements: 9576.403200 (11.34%)
+
