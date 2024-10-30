@@ -1,0 +1,57 @@
+# Tiny Tapeout project information
+project:
+  title:        "Experiment Number Six: Laplace LUT"      # Project title
+  author:       "Paul Hansel"      # Your name
+  discord:      "paulhansel"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "ASCII ROM encoding the LaTeX characters needed to typeset the Laplace transforms of a few specialized functions."      # One line description of what your project does
+  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  clock_hz:     10000000       # Clock frequency in Hz (or 0 if not applicable)
+
+  # How many tiles your design occupies? A single tile is about 167x108 uM.
+  tiles: "2x2"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2 or 6x2
+
+  # Your top module name must start with "tt_um_". Make it unique by including your github username:
+  top_module:  "tt_um_phansel_laplace_lut"
+
+  # List your project's source files here.
+  # Source files must be in ./src and you must list each source file separately, one per line.
+  # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
+  source_files:
+    - "tt_um_experiment_number_six.v"
+    - "transforms.v"
+    - "transformer.v"
+
+# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
+pinout:
+  # Inputs
+  ui[0]: "Address bit 0"
+  ui[1]: "Address bit 1"
+  ui[2]: "Address bit 2"
+  ui[3]: "Address bit 3"
+  ui[4]: "Address bit 4"
+  ui[5]: "Address bit 5"
+  ui[6]: "Character output enable"
+  ui[7]: "Clock divider disable"
+
+  # Outputs
+  uo[0]: "RHS_BIT_0"
+  uo[1]: "RHS_BIT_1"
+  uo[2]: "RHS_BIT_2"
+  uo[3]: "RHS_BIT_3"
+  uo[4]: "RHS_BIT_4"
+  uo[5]: "RHS_BIT_5"
+  uo[6]: "RHS_BIT_6"
+  uo[7]: "RHS_BIT_7"
+
+  # Bidirectional pins
+  uio[0]: "LHS_BIT_0"
+  uio[1]: "LHS_BIT_1"
+  uio[2]: "LHS_BIT_2"
+  uio[3]: "LHS_BIT_3"
+  uio[4]: "LHS_BIT_4"
+  uio[5]: "LHS_BIT_5"
+  uio[6]: "LHS_BIT_6"
+  uio[7]: "LHS_BIT_7"
+
+# Do not change!
+yaml_version: 6
