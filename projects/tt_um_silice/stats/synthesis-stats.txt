@@ -1,0 +1,59 @@
+
+17. Printing statistics.
+
+=== tt_um_silice ===
+
+   Number of wires:               4981
+   Number of wire bits:           5016
+   Number of public wires:         344
+   Number of public wire bits:     379
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               4736
+     sg13g2_a21o_1                  38
+     sg13g2_a21o_2                   1
+     sg13g2_a21oi_1                291
+     sg13g2_a21oi_2                 17
+     sg13g2_a221oi_1                18
+     sg13g2_a22oi_1                 71
+     sg13g2_and2_1                   9
+     sg13g2_and3_1                  12
+     sg13g2_buf_1                  184
+     sg13g2_buf_16                   4
+     sg13g2_buf_2                   20
+     sg13g2_buf_4                   31
+     sg13g2_buf_8                   18
+     sg13g2_dfrbp_1                261
+     sg13g2_inv_1                  610
+     sg13g2_inv_2                   27
+     sg13g2_inv_4                    6
+     sg13g2_mux2_1                   1
+     sg13g2_nand2_1                702
+     sg13g2_nand2_2                163
+     sg13g2_nand2b_1               141
+     sg13g2_nand2b_2                10
+     sg13g2_nand3_1                273
+     sg13g2_nand3b_1                23
+     sg13g2_nand4_1                 29
+     sg13g2_nor2_1                 594
+     sg13g2_nor2_2                  53
+     sg13g2_nor2b_1                153
+     sg13g2_nor2b_2                  4
+     sg13g2_nor3_1                 131
+     sg13g2_nor3_2                   1
+     sg13g2_nor4_1                  17
+     sg13g2_nor4_2                   2
+     sg13g2_o21ai_1                244
+     sg13g2_or2_1                    8
+     sg13g2_or3_1                    1
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1                396
+     sg13g2_xor2_1                 170
+
+   Chip area for module '\tt_um_silice': 52801.799400
+     of which used for sequential elements: 12312.518400 (23.32%)
+
