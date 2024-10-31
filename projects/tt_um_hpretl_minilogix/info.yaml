@@ -1,0 +1,56 @@
+# Tiny Tapeout project information
+project:
+  title:        "Minilogix"
+  author:       "Harald Pretl"
+  discord:      "hpretl"
+  description:  "A configurable 8b in, 8b out logic block with optional feedback"
+  language:     "Verilog"
+  clock_hz:     20000000
+
+  # How many tiles your design occupies? A single tile is about 167x108 uM.
+  tiles: "4x2"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2 or 6x2
+
+  # Your top module name must start with "tt_um_". Make it unique by including your github username:
+  top_module:  "tt_um_hpretl_minilogix"
+
+  # List your project's source files here.
+  # Source files must be in ./src and you must list each source file separately, one per line.
+  # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
+  source_files:
+    - "tt_um_hpretl_minilogix.v"
+    - "minilogix1.v"
+
+# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
+pinout:
+  # Inputs
+  ui[0]: "data in0"
+  ui[1]: "data in1"
+  ui[2]: "data in2"
+  ui[3]: "data in3"
+  ui[4]: "data in4"
+  ui[5]: "data in5"
+  ui[6]: "data in6"
+  ui[7]: "data in7"
+
+  # Outputs
+  uo[0]: "data out0"
+  uo[1]: "data out1"
+  uo[2]: "data out2"
+  uo[3]: "data out3"
+  uo[4]: "data out4"
+  uo[5]: "data out5"
+  uo[6]: "data out6"
+  uo[7]: "data out7"
+
+  # Bidirectional pins
+  uio[0]: "load enable"
+  uio[1]: "load clk"
+  uio[2]: "load data"
+  uio[3]: ""
+  uio[4]: ""
+  uio[5]: "dbg out0"
+  uio[6]: "dbg out1"
+  uio[7]: "dbg out2"
+
+# Do not change!
+yaml_version: 6
