@@ -10,21 +10,21 @@ You can also include images in this folder and reference them in the markdown. E
 # How it works
 
 DJ8 is a 8-bit CPU featuring:
-* 8 x 8-bit register file
-* 3-4 cycles per instruction
-* 15-bit external address bus
-* 8-bit external data bus
-* Built-in 32-bytes demo ROM
+
+- 8 x 8-bit register file
+- 3-4 cycles per instruction
+- 15-bit external address bus
+- 8-bit external data bus
+- Built-in 256-bytes demo ROM with 2 demos
 
 Thanks to its external parallel bus, it could be connected to parallel flash or RAM and can run at full speed without (de)serialization overhead.
 
-To fit in a 1x1 tile using IHP sg13g2 PDK, the size of the demo ROM has been reduced from 256 bytes to 32 bytes. 
-
-Sample assembly code could be found in [test bench](../test/test.py) and [test rom](../src/project.v).
+Sample assembly code could be found in [test bench](../test/test.py) and [demo ROM](../src/project.v).
 
 Previous implementations:
-* [TT07 DJ8 8-bit CPU w/ DAC - Verilog, Mixed-signal, 8-bit DAC, with built-in ByteBeat Synthesizer Demo ROM](https://github.com/dvxf/tt07-dj8v-dac)
-* [TT06 DJ8 8-bit CPU - VHDL, with built-in ByteBeat Synthesizer Demo ROM](https://github.com/dvxf/tt06-dj8)
+
+- [TT07 DJ8 8-bit CPU w/ DAC - Verilog, Mixed-signal, 8-bit DAC](https://github.com/dvxf/tt07-dj8v-dac)
+- [TT06 DJ8 8-bit CPU - VHDL](https://github.com/dvxf/tt06-dj8)
 
 ## Memory Map
 
@@ -50,6 +50,7 @@ At reset time, PC is set to 0x4000. All other registers are set to 0x80.
 
 ## Instruction Set
 For future compatibility, please set the don't care bits (`?`) to `0`.
+
 ### ALU reg, imm8: Immediate ALU operation
 
 | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
@@ -68,7 +69,7 @@ For future compatibility, please set the don't care bits (`?`) to `0`.
 - D : register
 - I : imm8
 
-### ALU dest, src, A {,shift}: ALU operation with src register and register A
+### ALU dest, src, A {,shift}: ALU operation with src register & register A
 
 | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -90,7 +91,7 @@ For future compatibility, please set the don't care bits (`?`) to `0`.
   - `01`: Shift right logical (shr)
   - `10`: Shift right arithmetic (sar)
 
-### ALU dest, [mem], A {, shift}: ALU operation with memory and register A
+### ALU dest, [mem], A {,shift}: ALU operation with memory & register A
 
 | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -157,16 +158,33 @@ To get a bidirectional data bus (needed for SRAM), uio bus must be connected to 
 
 # How to test
 
-A built-in 32-bytes test ROM that shows a rotating indicator on the 7-segment display of the TT04+ demo board is included. Its speed can be changed with DIP switches, the internal delay loop is entirely deactivated when all switches are reset.
+An internal test ROM with two demos is included for easy testing. Just select the corresponding DIP switches at reset time to start the demo (technically, a ***jmp GH*** instruction will be seen on the data bus thanks to the DIP switches values, with GH=0x8080 at reset).
 
-To enable the demo, select the corresponding DIP switches at reset time (technically, a ***jmp GH*** instruction will be seen on the data bus thanks to the DIP switches values, with GH=0x8080 at reset).
-
+## Demo 1: Rotating LED indicator
 | SW1 | SW2 | SW3 | SW4 | SW5 | SW6 | SW7 | SW8 |
 |--|--|--|--|--|--|--|--|
 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 
+No external hardware needed. This demo shows a rotating indicator on the 7-segment display. Its speed can be changed with DIP switches, the internal delay loop is entirely deactivated when all switches are reset.
+
+## Demo 2: Bytebeat Synthetizer
+
+| SW1 | SW2 | SW3 | SW4 | SW5 | SW6 | SW7 | SW8 |
+|--|--|--|--|--|--|--|--|
+| 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 |
+
+![](bytebeat.png)
+
+Modem handshakes sound like music to your hears? It's your lucky day! Become a bit-crunching DJ thanks to 256 lo-fi glitchy settings.
+
+Connect a speaker to uo[4] or use [Tiny Tapeout Simon Says PMOD](https://github.com/urish/tt-simon-pmod). Play with the DIP switches to change the loop settings. 
+
+It is highly recommended to add a simple low-pass RC filter on the speaker line to filter out the buzzing 8kHz carrier. Ideal cut-off frequency between 3kHz and 8kHz, TBD.
+
+Set SW1 and/or SW2 at reset time to adjust speed in case the design doesn't run at 14MHz.
+
 # External hardware
 
-* For demo: No external hardware needed
+* No external hardware for Demo 1
+* Speaker for Demo 2
 * Otherwise: Parallel Flash ROM + optional SRAM
-
