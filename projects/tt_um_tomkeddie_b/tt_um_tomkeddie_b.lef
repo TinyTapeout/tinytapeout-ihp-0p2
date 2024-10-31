@@ -1,0 +1,425 @@
+VERSION 5.8 ;
+BUSBITCHARS "[]" ;
+DIVIDERCHAR "/" ;
+UNITS
+    DATABASE MICRONS 1000 ;
+END UNITS
+
+VIA tt_um_tomkeddie_b_via1_2_2200_440_1_5_410_410
+  VIARULE via1Array ;
+  CUTSIZE 0.19 0.19 ;
+  LAYERS Metal1 Via1 Metal2 ;
+  CUTSPACING 0.22 0.22 ;
+  ENCLOSURE 0.01 0.125 0.05 0.005 ;
+  ROWCOL 1 5 ;
+END tt_um_tomkeddie_b_via1_2_2200_440_1_5_410_410
+
+VIA tt_um_tomkeddie_b_via2_3_2200_440_1_5_410_410
+  VIARULE via2Array ;
+  CUTSIZE 0.19 0.19 ;
+  LAYERS Metal2 Via2 Metal3 ;
+  CUTSPACING 0.22 0.22 ;
+  ENCLOSURE 0.05 0.005 0.005 0.05 ;
+  ROWCOL 1 5 ;
+END tt_um_tomkeddie_b_via2_3_2200_440_1_5_410_410
+
+VIA tt_um_tomkeddie_b_via3_4_2200_440_1_5_410_410
+  VIARULE via3Array ;
+  CUTSIZE 0.19 0.19 ;
+  LAYERS Metal3 Via3 Metal4 ;
+  CUTSPACING 0.22 0.22 ;
+  ENCLOSURE 0.005 0.05 0.05 0.005 ;
+  ROWCOL 1 5 ;
+END tt_um_tomkeddie_b_via3_4_2200_440_1_5_410_410
+
+VIA tt_um_tomkeddie_b_via4_5_2200_440_1_5_410_410
+  VIARULE via4Array ;
+  CUTSIZE 0.19 0.19 ;
+  LAYERS Metal4 Via4 Metal5 ;
+  CUTSPACING 0.22 0.22 ;
+  ENCLOSURE 0.05 0.005 0.185 0.05 ;
+  ROWCOL 1 5 ;
+END tt_um_tomkeddie_b_via4_5_2200_440_1_5_410_410
+
+MACRO tt_um_tomkeddie_b
+  FOREIGN tt_um_tomkeddie_b 0 0 ;
+  CLASS BLOCK ;
+  SIZE 212.16 BY 154.98 ;
+  PIN clk
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  198.57 153.98 198.87 154.98 ;
+    END
+  END clk
+  PIN ena
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  202.41 153.98 202.71 154.98 ;
+    END
+  END ena
+  PIN rst_n
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  194.73 153.98 195.03 154.98 ;
+    END
+  END rst_n
+  PIN ui_in[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  190.89 153.98 191.19 154.98 ;
+    END
+  END ui_in[0]
+  PIN ui_in[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  187.05 153.98 187.35 154.98 ;
+    END
+  END ui_in[1]
+  PIN ui_in[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  183.21 153.98 183.51 154.98 ;
+    END
+  END ui_in[2]
+  PIN ui_in[3]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  179.37 153.98 179.67 154.98 ;
+    END
+  END ui_in[3]
+  PIN ui_in[4]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  175.53 153.98 175.83 154.98 ;
+    END
+  END ui_in[4]
+  PIN ui_in[5]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  171.69 153.98 171.99 154.98 ;
+    END
+  END ui_in[5]
+  PIN ui_in[6]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  167.85 153.98 168.15 154.98 ;
+    END
+  END ui_in[6]
+  PIN ui_in[7]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  164.01 153.98 164.31 154.98 ;
+    END
+  END ui_in[7]
+  PIN uio_in[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  160.17 153.98 160.47 154.98 ;
+    END
+  END uio_in[0]
+  PIN uio_in[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  156.33 153.98 156.63 154.98 ;
+    END
+  END uio_in[1]
+  PIN uio_in[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  152.49 153.98 152.79 154.98 ;
+    END
+  END uio_in[2]
+  PIN uio_in[3]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  148.65 153.98 148.95 154.98 ;
+    END
+  END uio_in[3]
+  PIN uio_in[4]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  144.81 153.98 145.11 154.98 ;
+    END
+  END uio_in[4]
+  PIN uio_in[5]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  140.97 153.98 141.27 154.98 ;
+    END
+  END uio_in[5]
+  PIN uio_in[6]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  137.13 153.98 137.43 154.98 ;
+    END
+  END uio_in[6]
+  PIN uio_in[7]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  133.29 153.98 133.59 154.98 ;
+    END
+  END uio_in[7]
+  PIN uio_oe[0]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  68.01 153.98 68.31 154.98 ;
+    END
+  END uio_oe[0]
+  PIN uio_oe[1]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  64.17 153.98 64.47 154.98 ;
+    END
+  END uio_oe[1]
+  PIN uio_oe[2]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  60.33 153.98 60.63 154.98 ;
+    END
+  END uio_oe[2]
+  PIN uio_oe[3]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  56.49 153.98 56.79 154.98 ;
+    END
+  END uio_oe[3]
+  PIN uio_oe[4]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  52.65 153.98 52.95 154.98 ;
+    END
+  END uio_oe[4]
+  PIN uio_oe[5]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  48.81 153.98 49.11 154.98 ;
+    END
+  END uio_oe[5]
+  PIN uio_oe[6]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  44.97 153.98 45.27 154.98 ;
+    END
+  END uio_oe[6]
+  PIN uio_oe[7]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  41.13 153.98 41.43 154.98 ;
+    END
+  END uio_oe[7]
+  PIN uio_out[0]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  98.73 153.98 99.03 154.98 ;
+    END
+  END uio_out[0]
+  PIN uio_out[1]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  94.89 153.98 95.19 154.98 ;
+    END
+  END uio_out[1]
+  PIN uio_out[2]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  91.05 153.98 91.35 154.98 ;
+    END
+  END uio_out[2]
+  PIN uio_out[3]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  87.21 153.98 87.51 154.98 ;
+    END
+  END uio_out[3]
+  PIN uio_out[4]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  83.37 153.98 83.67 154.98 ;
+    END
+  END uio_out[4]
+  PIN uio_out[5]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  79.53 153.98 79.83 154.98 ;
+    END
+  END uio_out[5]
+  PIN uio_out[6]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  75.69 153.98 75.99 154.98 ;
+    END
+  END uio_out[6]
+  PIN uio_out[7]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  71.85 153.98 72.15 154.98 ;
+    END
+  END uio_out[7]
+  PIN uo_out[0]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  129.45 153.98 129.75 154.98 ;
+    END
+  END uo_out[0]
+  PIN uo_out[1]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  125.61 153.98 125.91 154.98 ;
+    END
+  END uo_out[1]
+  PIN uo_out[2]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  121.77 153.98 122.07 154.98 ;
+    END
+  END uo_out[2]
+  PIN uo_out[3]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  117.93 153.98 118.23 154.98 ;
+    END
+  END uo_out[3]
+  PIN uo_out[4]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  114.09 153.98 114.39 154.98 ;
+    END
+  END uo_out[4]
+  PIN uo_out[5]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  110.25 153.98 110.55 154.98 ;
+    END
+  END uo_out[5]
+  PIN uo_out[6]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  106.41 153.98 106.71 154.98 ;
+    END
+  END uo_out[6]
+  PIN uo_out[7]
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER Metal5 ;
+        RECT  102.57 153.98 102.87 154.98 ;
+    END
+  END uo_out[7]
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER Metal5 ;
+        RECT  166.58 3.56 168.78 151.42 ;
+        RECT  90.98 3.56 93.18 151.42 ;
+        RECT  15.38 3.56 17.58 151.42 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER Metal5 ;
+        RECT  204.38 3.56 206.58 151.42 ;
+        RECT  128.78 3.56 130.98 151.42 ;
+        RECT  53.18 3.56 55.38 151.42 ;
+    END
+  END VPWR
+  OBS
+    LAYER Metal1 ;
+     RECT  2.88 3.56 209.28 154.98 ;
+    LAYER Metal2 ;
+     RECT  2.88 3.56 209.28 154.98 ;
+    LAYER Metal3 ;
+     RECT  2.88 3.56 209.28 154.98 ;
+    LAYER Metal4 ;
+     RECT  2.88 3.56 209.28 154.98 ;
+    LAYER Metal5 ;
+     RECT  2.88 3.56 209.28 154.98 ;
+  END
+END tt_um_tomkeddie_b
+END LIBRARY
