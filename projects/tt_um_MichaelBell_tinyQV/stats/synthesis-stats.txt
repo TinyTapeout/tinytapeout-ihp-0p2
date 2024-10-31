@@ -3,59 +3,57 @@
 
 === tt_um_MichaelBell_tinyQV ===
 
-   Number of wires:               7079
-   Number of wire bits:           7114
-   Number of public wires:        1050
-   Number of public wire bits:    1085
+   Number of wires:               7295
+   Number of wire bits:           7330
+   Number of public wires:        1069
+   Number of public wire bits:    1104
    Number of ports:                  8
    Number of port bits:             43
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:               6059
-     sg13g2_a21o_1                  70
-     sg13g2_a21oi_1                398
-     sg13g2_a21oi_2                  2
-     sg13g2_a221oi_1                86
-     sg13g2_a22oi_1                134
-     sg13g2_and2_1                 130
-     sg13g2_and2_2                   1
-     sg13g2_and3_1                  37
+   Number of cells:               6257
+     sg13g2_a21o_1                  91
+     sg13g2_a21oi_1                466
+     sg13g2_a21oi_2                 10
+     sg13g2_a221oi_1               101
+     sg13g2_a22oi_1                140
+     sg13g2_and2_1                 150
+     sg13g2_and3_1                  26
      sg13g2_and3_2                   1
-     sg13g2_and4_1                  17
-     sg13g2_buf_1                  612
-     sg13g2_buf_16                   2
-     sg13g2_buf_2                   84
-     sg13g2_buf_4                   32
+     sg13g2_and4_1                  21
+     sg13g2_buf_1                  588
+     sg13g2_buf_16                   3
+     sg13g2_buf_2                   88
+     sg13g2_buf_4                   56
      sg13g2_buf_8                   23
-     sg13g2_dfrbp_1               1036
-     sg13g2_inv_1                  135
-     sg13g2_inv_2                    5
-     sg13g2_inv_4                    1
-     sg13g2_mux2_1                 431
-     sg13g2_mux4_1                  69
-     sg13g2_nand2_1                581
-     sg13g2_nand2_2                  4
-     sg13g2_nand2b_1               141
-     sg13g2_nand3_1                156
+     sg13g2_dfrbp_1               1054
+     sg13g2_inv_1                  174
+     sg13g2_inv_2                    1
+     sg13g2_mux2_1                 405
+     sg13g2_mux4_1                  86
+     sg13g2_nand2_1                604
+     sg13g2_nand2_2                  5
+     sg13g2_nand2b_1               107
+     sg13g2_nand3_1                186
      sg13g2_nand3b_1                30
-     sg13g2_nand4_1                 58
-     sg13g2_nor2_1                 535
+     sg13g2_nand4_1                 70
+     sg13g2_nor2_1                 534
      sg13g2_nor2_2                   5
-     sg13g2_nor2b_1                132
-     sg13g2_nor2b_2                  4
-     sg13g2_nor3_1                 172
+     sg13g2_nor2b_1                110
+     sg13g2_nor2b_2                  1
+     sg13g2_nor3_1                 195
      sg13g2_nor3_2                   3
-     sg13g2_nor4_1                  53
-     sg13g2_nor4_2                   7
-     sg13g2_o21ai_1                531
-     sg13g2_or2_1                   57
-     sg13g2_or3_1                   16
-     sg13g2_or4_1                    4
+     sg13g2_nor4_1                  50
+     sg13g2_nor4_2                   1
+     sg13g2_o21ai_1                529
+     sg13g2_or2_1                   49
+     sg13g2_or3_1                   18
+     sg13g2_or4_1                   12
      sg13g2_tiehi                    1
-     sg13g2_xnor2_1                181
-     sg13g2_xor2_1                  82
+     sg13g2_xnor2_1                188
+     sg13g2_xor2_1                  75
 
-   Chip area for module '\tt_um_MichaelBell_tinyQV': 100467.334800
-     of which used for sequential elements: 48872.678400 (48.65%)
+   Chip area for module '\tt_um_MichaelBell_tinyQV': 103415.508000
+     of which used for sequential elements: 49721.817600 (48.08%)
 
