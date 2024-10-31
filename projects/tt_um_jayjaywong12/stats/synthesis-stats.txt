@@ -1,0 +1,59 @@
+
+17. Printing statistics.
+
+=== tt_um_jayjaywong12 ===
+
+   Number of wires:               3583
+   Number of wire bits:           3618
+   Number of public wires:         393
+   Number of public wire bits:     428
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3205
+     sg13g2_a21o_1                  54
+     sg13g2_a21oi_1                219
+     sg13g2_a21oi_2                  5
+     sg13g2_a221oi_1                23
+     sg13g2_a22oi_1                 41
+     sg13g2_and2_1                  69
+     sg13g2_and3_1                   5
+     sg13g2_and3_2                   2
+     sg13g2_and4_1                   7
+     sg13g2_and4_2                   1
+     sg13g2_buf_1                  302
+     sg13g2_buf_16                   7
+     sg13g2_buf_2                   15
+     sg13g2_buf_4                    6
+     sg13g2_buf_8                    5
+     sg13g2_dfrbp_1                394
+     sg13g2_inv_1                   64
+     sg13g2_mux2_1                 239
+     sg13g2_mux2_2                   1
+     sg13g2_mux4_1                  84
+     sg13g2_nand2_1                367
+     sg13g2_nand2_2                  3
+     sg13g2_nand2b_1                66
+     sg13g2_nand3_1                 76
+     sg13g2_nand3b_1                 6
+     sg13g2_nand4_1                 29
+     sg13g2_nor2_1                 295
+     sg13g2_nor2_2                   1
+     sg13g2_nor2b_1                 42
+     sg13g2_nor3_1                  84
+     sg13g2_nor4_1                   6
+     sg13g2_o21ai_1                220
+     sg13g2_or2_1                   32
+     sg13g2_or2_2                    1
+     sg13g2_or3_1                   20
+     sg13g2_or3_2                    2
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1                285
+     sg13g2_xor2_1                 125
+
+   Chip area for module '\tt_um_jayjaywong12': 49981.541400
+     of which used for sequential elements: 18586.713600 (37.19%)
+
