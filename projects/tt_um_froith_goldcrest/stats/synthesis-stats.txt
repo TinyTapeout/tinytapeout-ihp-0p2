@@ -1,0 +1,61 @@
+
+17. Printing statistics.
+
+=== tt_um_froith_goldcrest ===
+
+   Number of wires:              16330
+   Number of wire bits:          16365
+   Number of public wires:        2625
+   Number of public wire bits:    2660
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              13746
+     sg13g2_a21o_1                 169
+     sg13g2_a21oi_1                653
+     sg13g2_a21oi_2                  4
+     sg13g2_a221oi_1               200
+     sg13g2_a22oi_1               1183
+     sg13g2_and2_1                 155
+     sg13g2_and2_2                   1
+     sg13g2_and3_1                  25
+     sg13g2_and3_2                   5
+     sg13g2_and4_1                  44
+     sg13g2_and4_2                   2
+     sg13g2_buf_1                 1270
+     sg13g2_buf_16                   2
+     sg13g2_buf_2                  531
+     sg13g2_buf_4                  317
+     sg13g2_buf_8                  117
+     sg13g2_dfrbp_1               2600
+     sg13g2_inv_1                  243
+     sg13g2_inv_2                    2
+     sg13g2_mux2_1                 867
+     sg13g2_mux4_1                   8
+     sg13g2_nand2_1               1745
+     sg13g2_nand2_2                  3
+     sg13g2_nand2b_1                91
+     sg13g2_nand3_1                338
+     sg13g2_nand3b_1                16
+     sg13g2_nand4_1                296
+     sg13g2_nor2_1                 664
+     sg13g2_nor2_2                  12
+     sg13g2_nor2b_1                 84
+     sg13g2_nor2b_2                  2
+     sg13g2_nor3_1                 150
+     sg13g2_nor3_2                  11
+     sg13g2_nor4_1                 111
+     sg13g2_nor4_2                   8
+     sg13g2_o21ai_1               1586
+     sg13g2_or2_1                   49
+     sg13g2_or3_1                   17
+     sg13g2_or4_1                    6
+     sg13g2_tiehi                    1
+     sg13g2_xnor2_1                 82
+     sg13g2_xor2_1                  76
+
+   Chip area for module '\tt_um_froith_goldcrest': 233958.450600
+     of which used for sequential elements: 122653.440000 (52.43%)
+
