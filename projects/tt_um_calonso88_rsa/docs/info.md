@@ -15,7 +15,7 @@ The design implements modular exponentiation (https://en.wikipedia.org/wiki/Modu
 
 Due to I/O constraints, a SPI slave peripheral has been created to load/read data into/from the design.
 
-The SPI Slave peripheral implementation supports only one SPI mode of operation (CPOL = 0 and CPHA = 0), 8 Configurable (Read/Write) 8-bit registers and 8 Status (Read only) 8-bit registers.
+The SPI Slave peripheral implementation supports all 4 SPI mode of operations (CPOL is configurable through ui[2] and CPHA is configurable through ui[3]), 8 Configurable (Read/Write) 8-bit registers and 8 Status (Read only) 8-bit registers.
 
 The RP2040 SPI1 peripheral shall be used to communicate with the RSA core. Configure RP2040 SPI1 peripheral to GPIOs 24 to 27.
 
@@ -38,7 +38,7 @@ The RP2040 SPI1 peripheral shall be used to communicate with the RSA core. Confi
 | 4 | Configurable Read/Write register [4] - M [7:0] |
 | 5 | Configurable Read/Write register [5] - Montgomery Constant [7:0] |
 | 6 | Configurable Read/Write register [6] |
-| 7 | Configurable Read/Write register [7] - Spare {7:0] |
+| 7 | Configurable Read/Write register [7] - Spare [7:0] - Connected to 7-segment Display |
 | 8 | Status Read Only register [0] -  bit[0] IRQ - Encryption/decryption completed |
 | 9 | Status Read Only register [1] - Fixed data 8'hC4 |
 | 10 | Status Read Only register [2] - Fixed data 8'h10 |

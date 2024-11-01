@@ -411,15 +411,15 @@ MACRO tt_um_calonso88_rsa
   END VPWR
   OBS
     LAYER Metal1 ;
-     RECT  1.775 2.795 209.795 154.98 ;
+     RECT  2.605 3.56 211.345 154.98 ;
     LAYER Metal2 ;
-     RECT  1.775 2.795 209.795 154.98 ;
+     RECT  2.605 3.56 211.345 154.98 ;
     LAYER Metal3 ;
-     RECT  1.775 2.795 209.795 154.98 ;
+     RECT  2.605 3.56 211.345 154.98 ;
     LAYER Metal4 ;
-     RECT  1.775 2.795 209.795 154.98 ;
+     RECT  2.605 3.56 211.345 154.98 ;
     LAYER Metal5 ;
-     RECT  1.775 2.795 209.795 154.98 ;
+     RECT  2.605 3.56 211.345 154.98 ;
   END
 END tt_um_calonso88_rsa
 END LIBRARY
