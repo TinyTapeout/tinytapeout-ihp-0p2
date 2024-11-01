@@ -30,6 +30,7 @@ project:
     - "tinyQV/peri/uart/uart_tx.v"
     - "tinyQV/peri/uart/uart_rx.v"
     - "tinyQV/peri/spi/spi.v"
+    - "tinyQV/peri/pwm/pwm.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
@@ -51,7 +52,7 @@ pinout:
   uo[4]: "SPI CS"
   uo[5]: "SPI SCK"
   uo[6]: "Debug UART TX"
-  uo[7]: "Debug signal"
+  uo[7]: "Debug signal / PWM"
 
   # Bidirectional pins
   uio[0]: "Flash CS"
@@ -61,7 +62,7 @@ pinout:
   uio[4]: "SD2"
   uio[5]: "SD3"
   uio[6]: "RAM A CS"
-  uio[7]: "RAM B CS"
+  uio[7]: "RAM B CS / PWM"
 
 # Do not change!
 yaml_version: 6

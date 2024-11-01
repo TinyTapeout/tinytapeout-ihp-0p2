@@ -31,6 +31,7 @@ The SoC includes a UART and an SPI controller.
 | 0x8000000 - 0x8000007 | GPIO  |
 | 0x8000010 - 0x800001F | UART |
 | 0x8000020 - 0x8000027 | SPI |
+| 0x8000028 - 0x800002B | PWM |
 
 ### GPIO
 
@@ -39,7 +40,7 @@ The SoC includes a UART and an SPI controller.
 | OUT      | 0x8000000 (W) | Control out0-7, if the corresponding bit in SEL is high |
 | OUT      | 0x8000000 (R) | Reads the current state of out0-7 |
 | IN       | 0x8000004 (R) | Reads the current state of in0-7 |
-| SEL      | 0x800000C (R/W) | Enables general purpose output on the corresponding bit on out0-7 |
+| SEL      | 0x800000C (R/W) | Bits 0-7 enable general purpose output on the corresponding bit on out0-7.  Bit 8 enables PWM output on out7, bit 9 enables PWM output on io7. |
 
 ### UART
 
