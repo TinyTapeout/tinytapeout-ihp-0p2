@@ -36,7 +36,7 @@ pinout:
   uo[0]: "UART 0 output"
   uo[1]: "UART 1 output"
   uo[2]: "UART 2 output"
-  uo[3]: ""
+  uo[3]: "UART 3 output"
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
