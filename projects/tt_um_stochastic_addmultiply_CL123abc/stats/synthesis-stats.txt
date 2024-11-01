@@ -1,0 +1,55 @@
+
+17. Printing statistics.
+
+=== tt_um_stochastic_addmultiply_CL123abc ===
+
+   Number of wires:               1135
+   Number of wire bits:           1170
+   Number of public wires:         225
+   Number of public wire bits:     260
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                935
+     sg13g2_a21o_1                  11
+     sg13g2_a21oi_1                 40
+     sg13g2_a21oi_2                  1
+     sg13g2_a221oi_1                 3
+     sg13g2_a22oi_1                 22
+     sg13g2_and2_1                  23
+     sg13g2_and3_1                   8
+     sg13g2_and3_2                   5
+     sg13g2_and4_1                   9
+     sg13g2_buf_1                   63
+     sg13g2_buf_2                   11
+     sg13g2_buf_8                    4
+     sg13g2_dfrbp_1                216
+     sg13g2_inv_1                   50
+     sg13g2_mux2_1                  72
+     sg13g2_nand2_1                 88
+     sg13g2_nand2b_1                25
+     sg13g2_nand3_1                 27
+     sg13g2_nand3b_1                 7
+     sg13g2_nand4_1                 25
+     sg13g2_nor2_1                  46
+     sg13g2_nor2_2                   4
+     sg13g2_nor2b_1                 18
+     sg13g2_nor2b_2                  1
+     sg13g2_nor3_1                   8
+     sg13g2_nor3_2                   2
+     sg13g2_nor4_1                  10
+     sg13g2_nor4_2                   1
+     sg13g2_o21ai_1                 75
+     sg13g2_or2_1                    3
+     sg13g2_or3_1                    5
+     sg13g2_or4_1                    1
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1                 31
+     sg13g2_xor2_1                  18
+
+   Chip area for module '\tt_um_stochastic_addmultiply_CL123abc': 17495.427600
+     of which used for sequential elements: 10189.670400 (58.24%)
+
