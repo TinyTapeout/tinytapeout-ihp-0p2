@@ -1,0 +1,57 @@
+
+17. Printing statistics.
+
+=== tt_um_toivoh_retro_console ===
+
+   Number of wires:              10277
+   Number of wire bits:          10312
+   Number of public wires:        1229
+   Number of public wire bits:    1264
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               9087
+     sg13g2_a21o_1                  60
+     sg13g2_a21oi_1                820
+     sg13g2_a21oi_2                 12
+     sg13g2_a221oi_1                49
+     sg13g2_a22oi_1                181
+     sg13g2_and2_1                   4
+     sg13g2_and3_1                  11
+     sg13g2_buf_1                  467
+     sg13g2_buf_2                   94
+     sg13g2_buf_4                   81
+     sg13g2_buf_8                   30
+     sg13g2_dfrbp_1               1206
+     sg13g2_inv_1                  928
+     sg13g2_inv_2                   22
+     sg13g2_inv_4                   14
+     sg13g2_inv_8                    3
+     sg13g2_mux2_1                 217
+     sg13g2_nand2_1               1843
+     sg13g2_nand2_2                 43
+     sg13g2_nand2b_1               127
+     sg13g2_nand2b_2                 1
+     sg13g2_nand3_1                564
+     sg13g2_nand3b_1                25
+     sg13g2_nand4_1                 57
+     sg13g2_nor2_1                 876
+     sg13g2_nor2_2                  51
+     sg13g2_nor2b_1                120
+     sg13g2_nor2b_2                  2
+     sg13g2_nor3_1                 126
+     sg13g2_nor3_2                   7
+     sg13g2_nor4_1                  39
+     sg13g2_nor4_2                   2
+     sg13g2_o21ai_1                746
+     sg13g2_or2_1                    6
+     sg13g2_or3_1                    1
+     sg13g2_tiehi                    1
+     sg13g2_xnor2_1                191
+     sg13g2_xor2_1                  60
+
+   Chip area for module '\tt_um_toivoh_retro_console': 124901.897400
+     of which used for sequential elements: 56892.326400 (45.55%)
+
