@@ -1,0 +1,169 @@
+
+17. Printing statistics.
+
+=== \$paramod\cla\WIDTH=s32'00000000000000000000000000011000 ===
+
+   Number of wires:                370
+   Number of wire bits:            440
+   Number of public wires:          28
+   Number of public wire bits:      98
+   Number of ports:                  3
+   Number of port bits:             73
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                392
+     sg13g2_a21o_1                   8
+     sg13g2_a21oi_1                 29
+     sg13g2_a21oi_2                  1
+     sg13g2_a221oi_1                10
+     sg13g2_a22oi_1                  9
+     sg13g2_and2_1                  13
+     sg13g2_and2_2                   1
+     sg13g2_and3_1                   6
+     sg13g2_and4_1                   3
+     sg13g2_buf_1                   41
+     sg13g2_buf_2                    4
+     sg13g2_buf_4                    4
+     sg13g2_buf_8                    1
+     sg13g2_inv_1                   18
+     sg13g2_nand2_1                 43
+     sg13g2_nand2b_1                 7
+     sg13g2_nand3_1                 11
+     sg13g2_nand3b_1                 1
+     sg13g2_nand4_1                  6
+     sg13g2_nor2_1                  33
+     sg13g2_nor2_2                   1
+     sg13g2_nor2b_1                  2
+     sg13g2_nor3_1                  20
+     sg13g2_nor3_2                   2
+     sg13g2_nor4_1                  11
+     sg13g2_nor4_2                   1
+     sg13g2_o21ai_1                 43
+     sg13g2_or2_1                    5
+     sg13g2_or3_1                    3
+     sg13g2_or4_1                    4
+     sg13g2_xnor2_1                 37
+     sg13g2_xor2_1                  14
+
+   Chip area for module '\$paramod\cla\WIDTH=s32'00000000000000000000000000011000': 3833.487000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== tt_um_cejmu ===
+
+   Number of wires:                899
+   Number of wire bits:            934
+   Number of public wires:         139
+   Number of public wire bits:     174
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                825
+     \$paramod\cla\WIDTH=s32'00000000000000000000000000011000      1
+     sg13g2_a21o_1                  22
+     sg13g2_a21oi_1                 39
+     sg13g2_a221oi_1                18
+     sg13g2_a22oi_1                 37
+     sg13g2_and2_1                  95
+     sg13g2_and2_2                   3
+     sg13g2_and3_1                   9
+     sg13g2_and3_2                   1
+     sg13g2_and4_1                   4
+     sg13g2_buf_1                   61
+     sg13g2_buf_2                   14
+     sg13g2_buf_4                   23
+     sg13g2_buf_8                    3
+     sg13g2_dfrbp_1                 66
+     sg13g2_inv_1                   16
+     sg13g2_inv_2                    1
+     sg13g2_mux2_1                  31
+     sg13g2_mux4_1                   1
+     sg13g2_nand2_1                 72
+     sg13g2_nand2_2                  2
+     sg13g2_nand2b_1                10
+     sg13g2_nand3_1                 21
+     sg13g2_nand3b_1                 6
+     sg13g2_nand4_1                  6
+     sg13g2_nor2_1                  62
+     sg13g2_nor2b_1                 37
+     sg13g2_nor3_1                  29
+     sg13g2_nor3_2                   2
+     sg13g2_nor4_1                   5
+     sg13g2_nor4_2                   1
+     sg13g2_o21ai_1                 63
+     sg13g2_or2_1                   10
+     sg13g2_or2_2                    1
+     sg13g2_or3_1                    5
+     sg13g2_or4_1                    1
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1                 32
+     sg13g2_xor2_1                  13
+
+   Area for cell type \$paramod\cla\WIDTH=s32'00000000000000000000000000011000 is unknown!
+
+   Chip area for module '\tt_um_cejmu': 10701.747000
+     of which used for sequential elements: 3113.510400 (29.09%)
+
+=== design hierarchy ===
+
+   tt_um_cejmu                       1
+     \$paramod\cla\WIDTH=s32'00000000000000000000000000011000      1
+
+   Number of wires:               1269
+   Number of wire bits:           1374
+   Number of public wires:         167
+   Number of public wire bits:     272
+   Number of ports:                 11
+   Number of port bits:            116
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1216
+     sg13g2_a21o_1                  30
+     sg13g2_a21oi_1                 68
+     sg13g2_a21oi_2                  1
+     sg13g2_a221oi_1                28
+     sg13g2_a22oi_1                 46
+     sg13g2_and2_1                 108
+     sg13g2_and2_2                   4
+     sg13g2_and3_1                  15
+     sg13g2_and3_2                   1
+     sg13g2_and4_1                   7
+     sg13g2_buf_1                  102
+     sg13g2_buf_2                   18
+     sg13g2_buf_4                   27
+     sg13g2_buf_8                    4
+     sg13g2_dfrbp_1                 66
+     sg13g2_inv_1                   34
+     sg13g2_inv_2                    1
+     sg13g2_mux2_1                  31
+     sg13g2_mux4_1                   1
+     sg13g2_nand2_1                115
+     sg13g2_nand2_2                  2
+     sg13g2_nand2b_1                17
+     sg13g2_nand3_1                 32
+     sg13g2_nand3b_1                 7
+     sg13g2_nand4_1                 12
+     sg13g2_nor2_1                  95
+     sg13g2_nor2_2                   1
+     sg13g2_nor2b_1                 39
+     sg13g2_nor3_1                  49
+     sg13g2_nor3_2                   4
+     sg13g2_nor4_1                  16
+     sg13g2_nor4_2                   2
+     sg13g2_o21ai_1                106
+     sg13g2_or2_1                   15
+     sg13g2_or2_2                    1
+     sg13g2_or3_1                    8
+     sg13g2_or4_1                    5
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1                 69
+     sg13g2_xor2_1                  27
+
+   Chip area for top module '\tt_um_cejmu': 14535.234000
+     of which used for sequential elements: 0.000000 (0.00%)
+
