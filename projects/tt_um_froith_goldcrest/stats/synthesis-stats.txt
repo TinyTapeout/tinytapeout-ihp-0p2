@@ -3,58 +3,58 @@
 
 === tt_um_froith_goldcrest ===
 
-   Number of wires:              16231
-   Number of wire bits:          16266
-   Number of public wires:        2625
-   Number of public wire bits:    2660
+   Number of wires:              15739
+   Number of wire bits:          15774
+   Number of public wires:        2528
+   Number of public wire bits:    2563
    Number of ports:                  8
    Number of port bits:             43
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:              13647
-     sg13g2_a21o_1                 137
-     sg13g2_a21oi_1                506
-     sg13g2_a21oi_2                 16
-     sg13g2_a221oi_1               217
-     sg13g2_a22oi_1               1308
-     sg13g2_and2_1                 153
-     sg13g2_and3_1                  25
-     sg13g2_and3_2                  12
-     sg13g2_and4_1                  47
-     sg13g2_and4_2                   1
-     sg13g2_buf_1                 1115
-     sg13g2_buf_16                  12
-     sg13g2_buf_2                  430
-     sg13g2_buf_4                  391
-     sg13g2_buf_8                  277
-     sg13g2_dfrbp_1               2600
-     sg13g2_inv_1                  265
+   Number of cells:              13252
+     sg13g2_a21o_1                  90
+     sg13g2_a21oi_1                680
+     sg13g2_a21oi_2                  3
+     sg13g2_a221oi_1               187
+     sg13g2_a22oi_1               1246
+     sg13g2_and2_1                 201
+     sg13g2_and2_2                   1
+     sg13g2_and3_1                  35
+     sg13g2_and3_2                   6
+     sg13g2_and4_1                  28
+     sg13g2_buf_1                 1199
+     sg13g2_buf_16                  11
+     sg13g2_buf_2                  487
+     sg13g2_buf_4                  326
+     sg13g2_buf_8                  157
+     sg13g2_dfrbp_1               2503
+     sg13g2_inv_1                  182
      sg13g2_inv_2                    2
-     sg13g2_mux2_1                 340
+     sg13g2_inv_4                    1
+     sg13g2_mux2_1                 307
      sg13g2_mux4_1                   6
-     sg13g2_nand2_1               2041
-     sg13g2_nand2_2                  8
-     sg13g2_nand2b_1                98
-     sg13g2_nand3_1                322
-     sg13g2_nand3b_1                18
-     sg13g2_nand4_1                291
-     sg13g2_nor2_1                 507
-     sg13g2_nor2_2                  23
-     sg13g2_nor2b_1                 87
-     sg13g2_nor2b_2                  2
-     sg13g2_nor3_1                 127
-     sg13g2_nor3_2                  16
-     sg13g2_nor4_1                  98
-     sg13g2_nor4_2                  23
-     sg13g2_o21ai_1               1918
-     sg13g2_or2_1                   29
-     sg13g2_or3_1                    7
-     sg13g2_or4_1                    7
+     sg13g2_nand2_1               1902
+     sg13g2_nand2b_1                94
+     sg13g2_nand3_1                191
+     sg13g2_nand3b_1                20
+     sg13g2_nand4_1                292
+     sg13g2_nor2_1                 634
+     sg13g2_nor2_2                   5
+     sg13g2_nor2b_1                 73
+     sg13g2_nor2b_2                  1
+     sg13g2_nor3_1                 180
+     sg13g2_nor3_2                   4
+     sg13g2_nor4_1                 139
+     sg13g2_nor4_2                   7
+     sg13g2_o21ai_1               1801
+     sg13g2_or2_1                   53
+     sg13g2_or3_1                   20
+     sg13g2_or4_1                   19
      sg13g2_tiehi                    1
-     sg13g2_xnor2_1                 95
-     sg13g2_xor2_1                  69
+     sg13g2_xnor2_1                 91
+     sg13g2_xor2_1                  67
 
-   Chip area for module '\tt_um_froith_goldcrest': 231787.332000
-     of which used for sequential elements: 122653.440000 (52.92%)
+   Chip area for module '\tt_um_froith_goldcrest': 221462.110800
+     of which used for sequential elements: 118077.523200 (53.32%)
 
