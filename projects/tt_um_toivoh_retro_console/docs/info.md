@@ -533,17 +533,18 @@ The `copper_ctrl` PPU registers have specific effects on the Copper:
 Writing a value to `cmp_x` or `cmp_y` causes the Copper to delay the next write until the current raster x/y
 position is >= the specified compare value.
 
-The raster position for x intially goes from `24 + r_x0_fp` to `32 + r_xe_hsync` as the raster scan goes through the front porch and horizontal sync (counted as the first part of the scan line).
-Due to a bug, during the back porch and active regions, it is then calculated as 
+For each scan line, the raster position for x goes through the following phases in order
 
-	x_raster = {x[X_BITS-1:7], x[6:5] - 2'd3, x[4:0]}
+	Phase             x raster positions
+	front porch       24 + r_x0_fp  to  31
+	horizontal sync   32            to  32 + r_xe_hsync
+	back porch        96 + r_x0_bp  to  127
+	active            128           to  xe_active
 
-where `x` goes from `96 + r_x0_bp` to `xe_active`.
-This makes `x_raster` non-monotonic, making it harder to wait for some x positions.
-A partial workaround for waiting for an `x_raster` value that is lower than a previous value in the scan line is to start with a write to `cmp_x` of the highest value expected before reaching the given position, followed directly with a write to `cmp_x` of the actual value.
+yielding increasing raster positions for x.
 
 The raster position for y counts as zero until the active region starts in the y direction.
-Then, the compare value is `512 + y - 2*screen_height` where `y` is the number of scan lines since the start of the active region in the y direction.
+Then, the compare value is `512 - 2*screen_height + y` where `y` is the number of scan lines since the start of the active region in the y direction.
 
 #### Jumps
 Usually, the Copper loads instructions from consecutive addresses.
