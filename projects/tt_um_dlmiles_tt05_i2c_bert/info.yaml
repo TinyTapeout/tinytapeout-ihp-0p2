@@ -1,0 +1,68 @@
+# Tiny Tapeout project information
+project:
+  title:        "I2C BERT"      # Project title
+  author:       "Darryl Miles"      # Your name
+  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "I2C Bit Error Rate Test"      # One line description of what your project does
+  language:     "SpinalHDL" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  clock_hz:     10000000       # Clock frequency in Hz (or 0 if not applicable)
+
+  # How many tiles your design occupies? A single tile is about 167x108 uM.
+  tiles: "1x2"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2 or 6x2
+
+  # Your top module name must start with "tt_um_". Make it unique by including your github username:
+  top_module:  "tt_um_dlmiles_tt05_i2c_bert"
+
+  # List your project's source files here.
+  # Source files must be in ./src and you must list each source file separately, one per line.
+  # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
+  source_files:
+    - tt_um.vh
+    - config.vh
+    - latched_config.v
+    - top_tt_um_dlmiles_tt05_i2c_bert.v
+    - toolbox/dffqn_negedge_async_reset.v
+    - toolbox/dff_async_reset.v
+    - toolbox/glitch_free_clock_mux_async_reset.v
+    - pdk_generic/generic_maj3.v
+    - pdk_generic/generic_maj5.v
+    - pdk_generic/generic_keep_and2.v
+    - pdk_generic/generic_keep_or2.v
+    - pdk_generic_sg13g2/sg13g2_dlhrq.v
+    - pdk_sg13g2/sg13g2_dlhrq_1.v
+    - TT05I2CBertTop.v
+
+# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
+pinout:
+  # Inputs
+  ui[0]: "i2cSampleDivisor bit0"
+  ui[1]: "i2cSampleDivisor bit1"
+  ui[2]: ""
+  ui[3]: ""
+  ui[4]: ""
+  ui[5]: ""
+  ui[6]: ""
+  ui[7]: "7seg or accm"
+
+  # Outputs
+  uo[0]: "segment a"
+  uo[1]: "segment b"
+  uo[2]: "segment c"
+  uo[3]: "segment d"
+  uo[4]: "segment e"
+  uo[5]: "segment f"
+  uo[6]: "segment g"
+  uo[7]: "dot"
+
+  # Bidirectional pins
+  uio[0]: ""
+  uio[1]: ""
+  uio[2]: "I2C SCL (bidi) old"
+  uio[3]: "I2C SDA (bidi)"
+  uio[4]: "I2C SCL (bidi) new"
+  uio[5]: ""
+  uio[6]: ""
+  uio[7]: "powerOnSense (out)"
+
+# Do not change!
+yaml_version: 6
