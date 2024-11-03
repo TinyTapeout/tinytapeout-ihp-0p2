@@ -1,8 +1,8 @@
 # Tiny Tapeout project information
 project:
-  title:        "RSA encryption"      # Project title
+  title:        "8 bit RSA encryption"      # Project title
   author:       "Caio Alonso da Costa"      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  discord:      "caioalonso5175"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "8 bit RSA encryption coprocessor with SPI interface"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     50000000       # Clock frequency in Hz (or 0 if not applicable)
