@@ -19,7 +19,6 @@ project:
   source_files:
     - top_tt_um_dlmiles_muldiv8.v
     - pdk_generic_sg13g2/sg13g2_dlhrq.v
-    - pdk_sg13g2/sg13g2_dlhrq_1.v
     - TT06MULDIV8Top.v
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
