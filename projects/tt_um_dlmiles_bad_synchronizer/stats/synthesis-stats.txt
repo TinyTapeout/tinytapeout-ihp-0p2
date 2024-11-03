@@ -1,0 +1,27 @@
+
+17. Printing statistics.
+
+=== tt_um_dlmiles_bad_synchronizer ===
+
+   Number of wires:                 25
+   Number of wire bits:             60
+   Number of public wires:           9
+   Number of public wire bits:      44
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 32
+     sg13g2_buf_1                   16
+     sg13g2_dfrbp_1                  9
+     sg13g2_nand2_1                  1
+     sg13g2_nand3_1                  1
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1                  2
+     sg13g2_xor2_1                   1
+
+   Chip area for module '\tt_um_dlmiles_bad_synchronizer': 615.081600
+     of which used for sequential elements: 424.569600 (69.03%)
+
