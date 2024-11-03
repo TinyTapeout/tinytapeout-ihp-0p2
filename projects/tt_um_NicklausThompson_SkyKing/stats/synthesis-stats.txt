@@ -1,0 +1,55 @@
+
+17. Printing statistics.
+
+=== tt_um_NicklausThompson_SkyKing ===
+
+   Number of wires:                967
+   Number of wire bits:           1002
+   Number of public wires:          93
+   Number of public wire bits:     128
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                898
+     sg13g2_a21o_1                  10
+     sg13g2_a21oi_1                 77
+     sg13g2_a221oi_1                10
+     sg13g2_a22oi_1                 22
+     sg13g2_and2_1                  31
+     sg13g2_and3_1                   6
+     sg13g2_and4_1                   3
+     sg13g2_buf_1                   53
+     sg13g2_buf_2                   20
+     sg13g2_buf_4                   15
+     sg13g2_buf_8                    6
+     sg13g2_dfrbp_1                 85
+     sg13g2_inv_1                   29
+     sg13g2_inv_2                    3
+     sg13g2_mux2_1                  10
+     sg13g2_nand2_1                 72
+     sg13g2_nand2b_1                20
+     sg13g2_nand2b_2                 1
+     sg13g2_nand3_1                 40
+     sg13g2_nand3b_1                 6
+     sg13g2_nand4_1                 30
+     sg13g2_nor2_1                 124
+     sg13g2_nor2_2                   5
+     sg13g2_nor2b_1                 26
+     sg13g2_nor2b_2                  1
+     sg13g2_nor3_1                  34
+     sg13g2_nor3_2                   3
+     sg13g2_nor4_1                  23
+     sg13g2_nor4_2                   2
+     sg13g2_o21ai_1                 72
+     sg13g2_or2_1                   13
+     sg13g2_or3_1                    1
+     sg13g2_or4_1                    2
+     sg13g2_tiehi                    1
+     sg13g2_xnor2_1                 26
+     sg13g2_xor2_1                  16
+
+   Chip area for module '\tt_um_NicklausThompson_SkyKing': 11674.832400
+     of which used for sequential elements: 4009.824000 (34.35%)
+
