@@ -1,0 +1,58 @@
+
+17. Printing statistics.
+
+=== tt_um_ccattuto_conway ===
+
+   Number of wires:               6638
+   Number of wire bits:           6673
+   Number of public wires:        1217
+   Number of public wire bits:    1252
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               5425
+     sg13g2_a21o_1                  30
+     sg13g2_a21oi_1                124
+     sg13g2_a21oi_2                  1
+     sg13g2_a221oi_1                20
+     sg13g2_a22oi_1                 69
+     sg13g2_and2_1                  44
+     sg13g2_and2_2                   2
+     sg13g2_and3_1                  19
+     sg13g2_and3_2                   1
+     sg13g2_and4_1                  12
+     sg13g2_buf_1                  492
+     sg13g2_buf_2                   91
+     sg13g2_buf_4                   41
+     sg13g2_buf_8                   11
+     sg13g2_dfrbp_1               1229
+     sg13g2_inv_1                   87
+     sg13g2_inv_2                    2
+     sg13g2_mux2_1                1129
+     sg13g2_mux4_1                 464
+     sg13g2_nand2_1                169
+     sg13g2_nand2_2                  1
+     sg13g2_nand2b_1                48
+     sg13g2_nand3_1                 93
+     sg13g2_nand3b_1                 5
+     sg13g2_nand4_1                 29
+     sg13g2_nor2_1                 781
+     sg13g2_nor2b_1                 32
+     sg13g2_nor2b_2                  1
+     sg13g2_nor3_1                  72
+     sg13g2_nor4_1                  39
+     sg13g2_nor4_2                   3
+     sg13g2_o21ai_1                175
+     sg13g2_or2_1                   19
+     sg13g2_or3_1                    7
+     sg13g2_or4_1                    7
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1                 41
+     sg13g2_xor2_1                  33
+
+   Chip area for module '\tt_um_ccattuto_conway': 118338.003000
+     of which used for sequential elements: 57977.337600 (48.99%)
+
