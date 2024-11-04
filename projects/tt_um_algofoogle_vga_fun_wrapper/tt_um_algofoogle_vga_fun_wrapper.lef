@@ -411,15 +411,15 @@ MACRO tt_um_algofoogle_vga_fun_wrapper
   END VPWR
   OBS
     LAYER Metal1 ;
-     RECT  2.605 3.215 209.28 154.98 ;
+     RECT  2.555 2.795 209.28 154.98 ;
     LAYER Metal2 ;
-     RECT  2.605 3.215 209.28 154.98 ;
+     RECT  2.555 2.795 209.28 154.98 ;
     LAYER Metal3 ;
-     RECT  2.605 3.215 209.28 154.98 ;
+     RECT  2.555 2.795 209.28 154.98 ;
     LAYER Metal4 ;
-     RECT  2.605 3.215 209.28 154.98 ;
+     RECT  2.555 2.795 209.28 154.98 ;
     LAYER Metal5 ;
-     RECT  2.605 3.215 209.28 154.98 ;
+     RECT  2.555 2.795 209.28 154.98 ;
   END
 END tt_um_algofoogle_vga_fun_wrapper
 END LIBRARY
