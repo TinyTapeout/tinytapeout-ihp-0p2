@@ -1,0 +1,59 @@
+
+17. Printing statistics.
+
+=== tt_um_gray_sobel ===
+
+   Number of wires:               2822
+   Number of wire bits:           2857
+   Number of public wires:         324
+   Number of public wire bits:     359
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2528
+     sg13g2_a21o_1                  50
+     sg13g2_a21o_2                   1
+     sg13g2_a21oi_1                232
+     sg13g2_a21oi_2                  3
+     sg13g2_a221oi_1                36
+     sg13g2_a22oi_1                 45
+     sg13g2_and2_1                  46
+     sg13g2_and2_2                   3
+     sg13g2_and3_1                  17
+     sg13g2_and4_1                  16
+     sg13g2_buf_1                  244
+     sg13g2_buf_16                   1
+     sg13g2_buf_2                   32
+     sg13g2_buf_4                   24
+     sg13g2_buf_8                    9
+     sg13g2_dfrbp_1                310
+     sg13g2_inv_1                   82
+     sg13g2_inv_2                    1
+     sg13g2_mux2_1                 180
+     sg13g2_nand2_1                191
+     sg13g2_nand2_2                  2
+     sg13g2_nand2b_1                64
+     sg13g2_nand3_1                 54
+     sg13g2_nand3b_1                10
+     sg13g2_nand4_1                 27
+     sg13g2_nor2_1                 215
+     sg13g2_nor2_2                   1
+     sg13g2_nor2b_1                 84
+     sg13g2_nor3_1                  44
+     sg13g2_nor3_2                   4
+     sg13g2_nor4_1                  18
+     sg13g2_nor4_2                   2
+     sg13g2_o21ai_1                223
+     sg13g2_or2_1                   26
+     sg13g2_or3_1                   11
+     sg13g2_or4_1                    8
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1                150
+     sg13g2_xor2_1                  60
+
+   Chip area for module '\tt_um_gray_sobel': 37231.601400
+     of which used for sequential elements: 14624.064000 (39.28%)
+
