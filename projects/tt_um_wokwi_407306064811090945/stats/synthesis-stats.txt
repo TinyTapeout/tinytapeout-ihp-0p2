@@ -15,12 +15,12 @@
    Number of cells:                 92
      sg13g2_and2_2                   8
      sg13g2_buf_1                   24
-     sg13g2_dfrbp_2                  5
+     sg13g2_dfrbp_1                  5
      sg13g2_inv_2                   49
      sg13g2_or2_2                    4
      sg13g2_tiehi                    1
      sg13g2_tielo                    1
 
-   Chip area for module '\tt_um_wokwi_407306064811090945': 947.116800
-     of which used for sequential elements: 272.160000 (28.74%)
+   Chip area for module '\tt_um_wokwi_407306064811090945': 910.828800
+     of which used for sequential elements: 235.872000 (25.90%)
 
