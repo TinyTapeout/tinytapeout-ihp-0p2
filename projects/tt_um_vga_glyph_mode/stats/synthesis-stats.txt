@@ -1,0 +1,53 @@
+
+17. Printing statistics.
+
+=== tt_um_vga_glyph_mode ===
+
+   Number of wires:               1744
+   Number of wire bits:           1779
+   Number of public wires:          46
+   Number of public wire bits:      81
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1722
+     sg13g2_a21o_1                   3
+     sg13g2_a21oi_1                104
+     sg13g2_a21oi_2                  8
+     sg13g2_a221oi_1                 6
+     sg13g2_a22oi_1                 19
+     sg13g2_and3_1                   1
+     sg13g2_buf_1                   35
+     sg13g2_buf_2                   17
+     sg13g2_buf_4                   27
+     sg13g2_buf_8                   26
+     sg13g2_dfrbp_1                 38
+     sg13g2_inv_1                  159
+     sg13g2_inv_2                    7
+     sg13g2_inv_4                    1
+     sg13g2_nand2_1                574
+     sg13g2_nand2_2                 51
+     sg13g2_nand2b_1                29
+     sg13g2_nand2b_2                 3
+     sg13g2_nand3_1                118
+     sg13g2_nand3b_1                 4
+     sg13g2_nand4_1                  3
+     sg13g2_nor2_1                 219
+     sg13g2_nor2_2                  16
+     sg13g2_nor2b_1                 21
+     sg13g2_nor2b_2                  9
+     sg13g2_nor3_1                  34
+     sg13g2_nor3_2                   1
+     sg13g2_nor4_1                   5
+     sg13g2_o21ai_1                125
+     sg13g2_or2_1                    1
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    1
+     sg13g2_xnor2_1                 38
+     sg13g2_xor2_1                  18
+
+   Chip area for module '\tt_um_vga_glyph_mode': 16136.555400
+     of which used for sequential elements: 1792.627200 (11.11%)
+
