@@ -1,21 +1,28 @@
 
-17. Printing statistics.
+18. Printing statistics.
 
 === tt_um_urish_sram_test ===
 
-   Number of wires:                  9
-   Number of wire bits:             44
-   Number of public wires:           8
-   Number of public wire bits:      43
+   Number of wires:                 28
+   Number of wire bits:             63
+   Number of public wires:          16
+   Number of public wire bits:      51
    Number of ports:                  8
    Number of port bits:             43
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                 25
-     sg13g2_buf_1                   24
+   Number of cells:                 33
+     RM_IHPSG13_1P_1024x8_c2_bm_bist      1
+     sg13g2_and2_1                   4
+     sg13g2_buf_1                   16
+     sg13g2_dfrbp_1                  4
+     sg13g2_inv_1                    1
+     sg13g2_mux2_1                   4
+     sg13g2_nor2_1                   1
+     sg13g2_tiehi                    1
      sg13g2_tielo                    1
 
-   Chip area for module '\tt_um_urish_sram_test': 181.440000
-     of which used for sequential elements: 0.000000 (0.00%)
+   Chip area for module '\tt_um_urish_sram_test': 49860.144000
+     of which used for sequential elements: 188.697600 (0.38%)
 
