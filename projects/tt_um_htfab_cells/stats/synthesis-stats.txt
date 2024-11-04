@@ -1,0 +1,90 @@
+
+17. Printing statistics.
+
+=== tt_um_htfab_cells ===
+
+   Number of wires:                152
+   Number of wire bits:            187
+   Number of public wires:          81
+   Number of public wire bits:     116
+   Number of ports:                  8
+   Number of port bits:             43
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                173
+     sg13g2_a21o_1                   8
+     sg13g2_a21o_2                   1
+     sg13g2_a21oi_1                  1
+     sg13g2_a21oi_2                  1
+     sg13g2_a221oi_1                 1
+     sg13g2_a22oi_1                  1
+     sg13g2_and2_1                   1
+     sg13g2_and2_2                   1
+     sg13g2_and3_1                   1
+     sg13g2_and3_2                   1
+     sg13g2_and4_1                   1
+     sg13g2_and4_2                   1
+     sg13g2_buf_1                   17
+     sg13g2_buf_16                   3
+     sg13g2_buf_2                    1
+     sg13g2_buf_4                    1
+     sg13g2_buf_8                    4
+     sg13g2_dfrbp_1                  1
+     sg13g2_dfrbp_2                  1
+     sg13g2_dlhq_1                   1
+     sg13g2_dlhr_1                   1
+     sg13g2_dlhrq_1                  1
+     sg13g2_dllr_1                   1
+     sg13g2_dllrq_1                  1
+     sg13g2_dlygate4sd1_1            1
+     sg13g2_dlygate4sd2_1            1
+     sg13g2_dlygate4sd3_1            1
+     sg13g2_ebufn_2                  2
+     sg13g2_ebufn_4                  2
+     sg13g2_ebufn_8                  2
+     sg13g2_einvn_2                  2
+     sg13g2_einvn_4                  2
+     sg13g2_einvn_8                  2
+     sg13g2_inv_1                    1
+     sg13g2_inv_16                   1
+     sg13g2_inv_2                    2
+     sg13g2_inv_4                    1
+     sg13g2_inv_8                    1
+     sg13g2_lgcp_1                   1
+     sg13g2_mux2_1                  18
+     sg13g2_mux2_2                   1
+     sg13g2_mux4_1                   9
+     sg13g2_nand2_1                  2
+     sg13g2_nand2_2                  2
+     sg13g2_nand2b_1                 4
+     sg13g2_nand2b_2                 1
+     sg13g2_nand3_1                  1
+     sg13g2_nand3b_1                 1
+     sg13g2_nand4_1                  1
+     sg13g2_nor2_1                  15
+     sg13g2_nor2_2                   1
+     sg13g2_nor2b_1                  1
+     sg13g2_nor2b_2                  2
+     sg13g2_nor3_1                   9
+     sg13g2_nor3_2                   1
+     sg13g2_nor4_1                   1
+     sg13g2_nor4_2                   1
+     sg13g2_o21ai_1                 11
+     sg13g2_or2_1                    3
+     sg13g2_or2_2                    1
+     sg13g2_or3_1                    1
+     sg13g2_or3_2                    1
+     sg13g2_or4_1                    1
+     sg13g2_or4_2                    1
+     sg13g2_sdfbbp_1                 1
+     sg13g2_sighold                  2
+     sg13g2_slgcp_1                  1
+     sg13g2_tiehi                    1
+     sg13g2_tielo                    2
+     sg13g2_xnor2_1                  1
+     sg13g2_xor2_1                   1
+
+   Chip area for module '\tt_um_htfab_cells': 2821.354200
+     of which used for sequential elements: 165.110400 (5.85%)
+
