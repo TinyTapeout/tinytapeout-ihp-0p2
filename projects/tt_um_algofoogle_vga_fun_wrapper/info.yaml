@@ -1,0 +1,58 @@
+# Tiny Tapeout project information
+project:
+  title:        "TTIHP VGA FUN!"      # Project title
+  author:       "algofoogle (Anton Maurovic) + htfab"      # Your name
+  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "The digital part of TT08 VGA FUN! with a simple sequencer loop"      # One line description of what your project does
+  language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+
+  # How many tiles your design occupies? A single tile is about 167x108 uM.
+  tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2 or 6x2
+
+  # Your top module name must start with "tt_um_". Make it unique by including your github username:
+  top_module:  "tt_um_algofoogle_vga_fun_wrapper"
+
+  # List your project's source files here.
+  # Source files must be in ./src and you must list each source file separately, one per line.
+  # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
+  source_files:
+    - "vga_sync.v"
+    - "controller.v"
+    - "project.v"
+    - "wrapper.v"
+
+# The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
+pinout:
+  # Inputs
+  ui[0]: "(mode bit 0)"
+  ui[1]: "(mode bit 1)"
+  ui[2]: "(mode bit 2)"
+  ui[3]: "(depth bit 0)"
+  ui[4]: "(depth bit 1)"
+  ui[5]: "(depth bit 2)"
+  ui[6]: "(depth bit 3)"
+  ui[7]: "override sequencer"
+
+  # Outputs
+  uo[0]: "r0"
+  uo[1]: "r1"
+  uo[2]: "r2"
+  uo[3]: "r3"
+  uo[4]: "b0"
+  uo[5]: "b1"
+  uo[6]: "b2"
+  uo[7]: "b3"
+
+  # Bidirectional pins
+  uio[0]: "g0"
+  uio[1]: "g1"
+  uio[2]: "g2"
+  uio[3]: "g3"
+  uio[4]: "hsync"
+  uio[5]: "vsync"
+  uio[6]: ""
+  uio[7]: ""
+
+# Do not change!
+yaml_version: 6
