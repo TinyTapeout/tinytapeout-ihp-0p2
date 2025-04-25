@@ -1,0 +1,65 @@
+QFN Pad,X (um),Y (um),Die Edge,Type,Name
+1,-1380.0,-2395.0,bottom,Signal,ctl[0]
+2,-1196.0,-2395.0,bottom,Signal,ctl[1]
+3,-1012.0,-2395.0,bottom,Signal,ctl[2]
+4,-828.0,-2395.0,bottom,Signal,ctl[3]
+5,-644.0,-2395.0,bottom,Signal,ctl[4]
+6,-460.0,-2395.0,bottom,Signal,ctl[5]
+7,-276.0,-2395.0,bottom,Signal,nc
+8,-92.0,-2395.0,bottom,Signal,nc
+9,92.0,-2395.0,bottom,Signal,uo[0]
+10,276.0,-2395.0,bottom,Signal,uo[1]
+11,460.0,-2395.0,bottom,Signal,uo[2]
+12,644.0,-2395.0,bottom,Signal,uo[3]
+13,828.0,-2395.0,bottom,Signal,uo[4]
+14,1012.0,-2395.0,bottom,Signal,uo[5]
+15,1196.0,-2395.0,bottom,Signal,uo[6]
+16,1380.0,-2395.0,bottom,Signal,uo[7]
+17,1695.0,-2040.0,right,POWER,VDD IO
+18,1695.0,-1768.0,right,GROUND,GND IO
+19,1695.0,-1496.0,right,Signal,ana[0]
+20,1695.0,-1224.0,right,Signal,ana[1]
+21,1695.0,-952.0,right,Signal,ana[2]
+22,1695.0,-680.0,right,Signal,ana[3]
+23,1695.0,-408.0,right,POWER,VAA Analog
+24,1695.0,-136.0,right,GROUND,GND Analog
+25,1695.0,136.0,right,Signal,ana[4]
+26,1695.0,408.0,right,Signal,ana[5]
+27,1695.0,680.0,right,Signal,ana[6]
+28,1695.0,952.0,right,Signal,ana[7]
+29,1695.0,1224.0,right,GROUND,GND Core
+30,1695.0,1496.0,right,POWER,VDD Core
+31,1695.0,1768.0,right,GROUND,GND IO
+32,1695.0,2040.0,right,POWER,VDD IO
+33,1380.0,2395.0,top,Signal,uio[0]
+34,1196.0,2395.0,top,Signal,uio[1]
+35,1012.0,2395.0,top,Signal,uio[2]
+36,828.0,2395.0,top,Signal,uio[3]
+37,644.0,2395.0,top,Signal,uio[4]
+38,460.0,2395.0,top,Signal,uio[5]
+39,276.0,2395.0,top,Signal,uio[6]
+40,92.0,2395.0,top,Signal,uio[7]
+41,-92.0,2395.0,top,Signal,ui[0]
+42,-276.0,2395.0,top,Signal,ui[1]
+43,-460.0,2395.0,top,Signal,ui[2]
+44,-644.0,2395.0,top,Signal,ui[3]
+45,-828.0,2395.0,top,Signal,ui[4]
+46,-1012.0,2395.0,top,Signal,ui[5]
+47,-1196.0,2395.0,top,Signal,ui[6]
+48,-1380.0,2395.0,top,Signal,ui[7]
+49,-1695.0,2040.0,left,Signal,u_rst_n
+50,-1695.0,1768.0,left,Signal,u_clk
+51,-1695.0,1496.0,left,GROUND,GND IO
+52,-1695.0,1224.0,left,POWER,VDD IO
+53,-1695.0,952.0,left,Signal,ana[8]
+54,-1695.0,680.0,left,Signal,ana[9]
+55,-1695.0,408.0,left,Signal,ana[10]
+56,-1695.0,136.0,left,Signal,ana[11]
+57,-1695.0,-136.0,left,GROUND,GND Analog
+58,-1695.0,-408.0,left,POWER,VDD Analog
+59,-1695.0,-680.0,left,Signal,ana[12]
+60,-1695.0,-952.0,left,Signal,ana[13]
+61,-1695.0,-1224.0,left,Signal,ana[14]
+62,-1695.0,-1496.0,left,Signal,ana[15]
+63,-1695.0,-1768.0,left,GROUND,GND Core
+64,-1695.0,-2040.0,left,POWER,VDD Core
